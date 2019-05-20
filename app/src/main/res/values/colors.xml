@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ECECEC</color>
+    <color name="colorPrimaryDark">#C0B6B6</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorDirection">#b1aaaa</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="selected">#ff4081</color>
+
+    <!--    <color name="background_filter">#cce6ea</color>
+        <color name="background_filter_toolbar">#abced4</color>-->
+    <color name="background_filter">#C1E2BF</color>
+    <color name="background_filter_toolbar">#A1CCAC</color>
+    <color name="background_filter_text">#83ba91</color>
+
+    <color name = "filter_Accent">#F44336</color>
+
+
+    <color name="lib_color">#CB374B</color>
+    <color name="store_color">#e49c00</color>
+    <color name="pub_color">#73A257</color>
+
+    <color name="switch_filter">#840718</color>
+
+</resources>

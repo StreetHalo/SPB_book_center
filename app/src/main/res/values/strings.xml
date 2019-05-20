@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Книжный Петербург</string>
+    <string name="dont_have_net">Для корректной работы приложения необходимо подключение к интернету.</string>
+    <string name="dont_have_location">Для корректной работы приложения необходимо разрешение геолокации.</string>
+    <string name="dont_have_call">Необходимо разрешение.</string>
+
+    <string name="about">О программе</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_filter">FilterActivity</string>
+
+    //Фильтр
+    <string name="fil_lib">Библиотеки</string>
+    <string name="fil_lib_wifi">Наличие Wi-Fi</string>
+    <string name="fil_lib_print">Возможность печати</string>
+    <string name="fil_lib_empty">Библиотеки без дополнительных услуг</string>
+
+    <string name="fil_lib_coworking">Коворкинг</string>
+    <string name="fil_books">Книжные магазины</string>
+    <string name="fil_books_wifi">Наличие Wi-Fi</string>
+    <string name="fil_books_cafe">Кофейня</string>
+    <string name="fil_books_coworking">Коворкинг</string>
+    <string name="fil_books_empty">Магазин без дополнительных услуг</string>
+
+    <string name="fil_public">Издательства</string>
+    <string name="fil_public_your_book">Возможность издать Вашу книгу</string>
+    <string name="fil_public_store">Продажа книг по издательским ценам</string>
+    <string name="fil_public_online_store">Наличие интернет-магазина</string>
+    <string name="fil_public_empty">Издательства без дополнительных услуг</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+
+    //Профили (библиотека)
+    <string name="categories">Услуги:</string>
+    <string name="image_profile_wi_fi">В библиотеке есть Wi-Fi</string>
+    <string name="image_profile_printer">В библиотеке можно распечатать</string>
+    <string name="image_profile_coworiking">В библиотеке есть коворкинг</string>
+    //Профили (издательства)
+    <string name="image_profile_publish">Возможность издать Вашу книгу</string>
+    <string name="image_profile_store">Возможность приобрести книги по издательским ценам</string>
+    <string name="image_profile_online_store">Наличие интернет-магазина</string>
+    //Профили (книжные)
+    <string name="image_profile_cafe">В книжном магазине есть кафе</string>
+    <string name="image_profile_book_wifi">В книжном магазине есть Wi-Fi</string>
+    <string name="image_profile_book_coworiking">В книжном магазине есть коворкинг</string>
+
+</resources>
