@@ -23,11 +23,11 @@ open class LocationRepository(
         return reactiveLocationProvider
     }
 
-    @SuppressLint("MissingPermission")
+/*    @SuppressLint("MissingPermission")
     fun getCurrentLocation(): Observable<Location>? {
 
         return reactiveLocationProvider.getUpdatedLocation(locationRequest)
 
-    }
+    }*/
 
 }

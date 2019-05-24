@@ -5,6 +5,12 @@
     <string name="dont_have_call">Необходимо разрешение.</string>
 
     <string name="about">О программе</string>
+    <string name="search_hint">Поиск места</string>
+
+
+
+
+
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -43,5 +49,6 @@
     <string name="image_profile_cafe">В книжном магазине есть кафе</string>
     <string name="image_profile_book_wifi">В книжном магазине есть Wi-Fi</string>
     <string name="image_profile_book_coworiking">В книжном магазине есть коворкинг</string>
+    <string name="title_activity_about">AboutActivity</string>
 
 </resources>

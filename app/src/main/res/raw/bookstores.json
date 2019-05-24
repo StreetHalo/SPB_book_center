@@ -87,7 +87,7 @@
 		"hasCoworking": true,
 		"hasWiFi": true,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.respublica.ru"
+		"placeUrl": "https://www.respublica.ru"
 	}, {
 		"id": "8BS",
 		"category": "Книжный магазин",
@@ -102,7 +102,7 @@
 		"hasCoworking": true,
 		"hasWiFi": true,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.respublica.ru"
+		"placeUrl": "https://www.respublica.ru"
 	}, {
 		"id": "9BS",
 		"category": "Книжный магазин",
@@ -117,7 +117,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.respublica.ru"
+		"placeUrl": "https://www.respublica.ru"
 	}, {
 		"id": "10BS",
 		"category": "Книжный магазин",
@@ -125,7 +125,7 @@
 		"address": "ул. Мончегорская, д. 8 , литер. «Б»",
 		"about": "Детская и подростковая литература, л-ра для родителей",
 		"timeWork": "ПН-ПТ: 11.00-19.00\nСБ-ВС: 12.00-17.00",
-		"telNumber": "",
+		"telNumber": "-",
 		"latitude": "59.957346",
 		"longitude": "30.294921",
 		"hasCafe": true,
@@ -147,7 +147,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.akbook.ru"
+		"placeUrl": "http://akbook.ru/"
 	}, {
 		"id": "13BS",
 		"category": "Книжный магазин",
@@ -162,7 +162,7 @@
 		"hasCoworking": false,
 		"hasWiFi": true,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": ""
+		"placeUrl": "-"
 	}, {
 		"id": "14BS",
 		"category": "Книжный магазин",
@@ -258,7 +258,7 @@
 		"category": "Книжный магазин",
 		"name": "Книжный магазин «Порядок слов»",
 		"address": "Наб. р. Фонтанки, д. 15",
-		"about": "",
+		"about": "-",
 		"timeWork": "ПН-ВС: 11.00-22.00",
 		"telNumber": "3105036",
 		"latitude": "59.936192",
@@ -282,7 +282,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": ""
+		"placeUrl": "-"
 	}, {
 		"id": "22BS",
 		"category": "Книжный магазин",
@@ -327,7 +327,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.nevsky3.spb.ru"
+		"placeUrl": "-"
 	}, {
 		"id": "25BS",
 		"category": "Книжный магазин",
@@ -432,7 +432,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "vk.com/dvorbooks"
+		"placeUrl": "https://vk.com/dvorbooks"
 	}, {
 		"id": "32BS",
 		"category": "Книжный магазин",
@@ -447,7 +447,7 @@
 		"hasCoworking": false,
 		"hasWiFi": true,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "podpisnie.ru"
+		"placeUrl": "https://www.podpisnie.ru/"
 	}, {
 		"id": "33BS",
 		"category": "Книжный магазин",
@@ -492,7 +492,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "28oi.ru"
+		"placeUrl": "https://www.28oi.ru/"
 	}, {
 		"id": "36BS",
 		"category": "Книжный магазин",
@@ -642,7 +642,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": ""
+		"placeUrl": "-"
 	}, {
 		"id": "47BS",
 		"category": "Книжный магазин",
@@ -747,11 +747,11 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": ""
+		"placeUrl": "-"
 	}, {
 		"id": "55BS",
 		"category": "Книжный магазин",
-		"name": "Книжная лавка издательства «Черная Сотня»",
+		"name": "Книжная лавка издательства\n«Черная Сотня»",
 		"address": "Биржевой пер., 4 (вход со двора)",
 		"about": "Литература по истории, философии, культуре, редкая литература русского зарубежья",
 		"timeWork": "ВТ-ВС: 13.00-20.00",
@@ -770,14 +770,14 @@
 		"address": "Менделеевская линия, д. 1, 1 эт",
 		"about": "Научная и научно-прикладная л-ра",
 		"timeWork": "ПН-СБ: 9.30-18.30",
-		"telNumber": "",
+		"telNumber": "-",
 		"latitude": "59.940944",
 		"longitude": "30.301870",
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": ""
+		"placeUrl": "-"
 	}, {
 		"id": "57BS",
 		"category": "Книжный магазин",
@@ -837,7 +837,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": ""
+		"placeUrl": "-"
 	}, {
 		"id": "61BS",
 		"category": "Книжный магазин",
@@ -867,7 +867,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": ""
+		"placeUrl": "-"
 	}, {
 		"id": "64BS",
 		"category": "Книжный магазин",
@@ -897,7 +897,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": ""
+		"placeUrl": "-"
 	}, {
 		"id": "68BS",
 		"category": "Книжный магазин",
@@ -1137,7 +1137,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": ""
+		"placeUrl": "-"
 	}, {
 		"id": "85BS",
 		"category": "Книжный магазин",
@@ -1272,7 +1272,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bukaspb.ru"
+		"placeUrl": "http://www.bukaspb.ru/"
 	}, {
 		"id": "96BS",
 		"category": "Книжный магазин",
@@ -1280,7 +1280,7 @@
 		"address": "Гражданский пр., 119, 2-й эт",
 		"about": "Классическая и современная худож. л-ра, детская л-ра, науч.-поп., канцтовары, подарки и сувениры",
 		"timeWork": "ПН-ВС: 10.00-21.00",
-		"telNumber": "",
+		"telNumber": "-",
 		"latitude": "60.033994",
 		"longitude": "30.420585",
 		"hasCafe": false,
@@ -1302,7 +1302,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "dk-spb.ru"
+		"placeUrl": "http://dk-spb.ru/"
 	},  {
 		"id": "99BS",
 		"category": "Книжный магазин",
@@ -1332,7 +1332,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "regnum-book.ru"
+		"placeUrl": "https://regnum-book.ru/"
 	}, {
 		"id": "103BS",
 		"category": "Книжный магазин",
@@ -1347,7 +1347,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": ""
+		"placeUrl": "-"
 	}, {
 		"id": "104BS",
 		"category": "Книжный магазин",
@@ -1362,7 +1362,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bible.org.ru"
+		"placeUrl": "https://www.bible.org.ru/"
 	}, {
 		"id": "105BS",
 		"category": "Книжный магазин",
@@ -1377,7 +1377,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.кнопкак.рф"
+		"placeUrl": "http://www.кнопкак.рф"
 	}, {
 		"id": "106BS",
 		"category": "Книжный магазин",
@@ -1408,7 +1408,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "111BS",
 		"category": "Книжный магазин",
@@ -1423,7 +1423,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "112BS",
 		"category": "Книжный магазин",
@@ -1438,7 +1438,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "113BS",
 		"category": "Книжный магазин",
@@ -1453,7 +1453,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "114BS",
 		"category": "Книжный магазин",
@@ -1483,7 +1483,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.kdrodina.ru"
+		"placeUrl": "-"
 	}, {
 		"id": "116BS",
 		"category": "Книжный магазин",
@@ -1498,7 +1498,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "117BS",
 		"category": "Книжный магазин",
@@ -1513,7 +1513,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": ""
+		"placeUrl": "-"
 	}, {
 		"id": "118BS",
 		"category": "Книжный магазин",
@@ -1528,7 +1528,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": ""
+		"placeUrl": "-"
 	}, {
 		"id": "119BS",
 		"category": "Книжный магазин",
@@ -1543,7 +1543,7 @@
 		"hasCoworking": true,
 		"hasWiFi": true,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": ""
+		"placeUrl": "-"
 	}, {
 		"id": "120BS",
 		"category": "Книжный магазин",
@@ -1558,7 +1558,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": ""
+		"placeUrl": "-"
 	}, {
 		"id": "121BS",
 		"category": "Книжный магазин",
@@ -1573,7 +1573,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": ""
+		"placeUrl": "-"
 	}, {
 		"id": "122BS",
 		"category": "Книжный магазин",
@@ -1588,7 +1588,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.kdrodina.ru"
+		"placeUrl": "-"
 	}, {
 		"id": "123BS",
 		"category": "Книжный магазин",
@@ -1603,7 +1603,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "bukaspb.ru"
+		"placeUrl": "http://www.bukaspb.ru/"
 	}, {
 		"id": "124BS",
 		"category": "Книжный магазин",
@@ -1618,7 +1618,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru/"
 	}, {
 		"id": "125BS",
 		"category": "Книжный магазин",
@@ -1633,7 +1633,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "bukaspb.ru"
+		"placeUrl": "http://www.bukaspb.ru/"
 	}, {
 		"id": "126BS",
 		"category": "Книжный магазин",
@@ -1648,7 +1648,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": ""
+		"placeUrl": "-"
 	}, {
 		"id": "127BS",
 		"category": "Книжный магазин",
@@ -1663,7 +1663,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "bukaspb.ru"
+		"placeUrl": "http://www.bukaspb.ru/"
 	}, {
 		"id": "128BS",
 		"category": "Книжный магазин",
@@ -1678,7 +1678,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru/"
 	}, {
 		"id": "129BS",
 		"category": "Книжный магазин",
@@ -1693,7 +1693,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "relod.ru"
+		"placeUrl": "http://www.relod.ru/"
 	}, {
 		"id": "130BS",
 		"category": "Книжный магазин",
@@ -1708,7 +1708,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "bukaspb.ru"
+		"placeUrl": "http://www.bukaspb.ru/"
 	}, {
 		"id": "131BS",
 		"category": "Книжный магазин",
@@ -1723,7 +1723,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "132BS",
 		"category": "Книжный магазин",
@@ -1738,7 +1738,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "133BS",
 		"category": "Книжный магазин",
@@ -1753,7 +1753,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "134BS",
 		"category": "Книжный магазин",
@@ -1768,7 +1768,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "135BS",
 		"category": "Книжный магазин",
@@ -1783,7 +1783,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "136BS",
 		"category": "Книжный магазин",
@@ -1798,7 +1798,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": ""
+		"placeUrl": "-"
 	}, {
 		"id": "137BS",
 		"category": "Книжный магазин",
@@ -1828,7 +1828,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": ""
+		"placeUrl": "-"
 	}, {
 		"id": "139BS",
 		"category": "Книжный магазин",
@@ -1843,7 +1843,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "140BS",
 		"category": "Книжный магазин",
@@ -1858,7 +1858,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "141BS",
 		"category": "Книжный магазин",
@@ -1873,7 +1873,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "142BS",
 		"category": "Книжный магазин",
@@ -1888,7 +1888,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "143BS",
 		"category": "Книжный магазин",
@@ -1903,7 +1903,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "144BS",
 		"category": "Книжный магазин",
@@ -1948,7 +1948,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": ""
+		"placeUrl": "-"
 	}, {
 		"id": "147BS",
 		"category": "Книжный магазин",
@@ -1963,7 +1963,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "148BS",
 		"category": "Книжный магазин",
@@ -1978,7 +1978,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "149BS",
 		"category": "Книжный магазин",
@@ -1993,7 +1993,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "150BS",
 		"category": "Книжный магазин",
@@ -2008,7 +2008,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "151BS",
 		"category": "Книжный магазин",
@@ -2023,7 +2023,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "152BS",
 		"category": "Книжный магазин",
@@ -2038,7 +2038,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "153BS",
 		"category": "Книжный магазин",
@@ -2053,7 +2053,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "154BS",
 		"category": "Книжный магазин",
@@ -2068,7 +2068,7 @@
 		"hasCoworking": false,
 		"hasWiFi": true,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "presshouse.ru"
+		"placeUrl": "-"
 	}, {
 		"id": "155BS",
 		"category": "Книжный магазин",
@@ -2076,14 +2076,14 @@
 		"address": "Пулковское ш., д. 41, аэропорт «Пулково 1»",
 		"about": "Издания Торгового дома «Медный всадник» и петербургских музеев – книги, альбомы, путеводители, мультимедиа, репродукции, сувениры  ",
 		"timeWork": "ПН-ВС: 06.00-24.00",
-		"telNumber": "",
+		"telNumber": "-",
 		"latitude": "59.799918",
 		"longitude": "30.272445",
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": true,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": ""
+		"placeUrl": "-"
 	}, {
 		"id": "156BS",
 		"category": "Книжный магазин",
@@ -2098,7 +2098,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "krolocomics.ru"
+		"placeUrl": "https://krolocomics.ru/"
 	}, {
 		"id": "157BS",
 		"category": "Книжный магазин",
@@ -2113,7 +2113,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "grafitspb.com"
+		"placeUrl": "http://grafitspb.com/"
 	}, {
 		"id": "158BS",
 		"category": "Книжный магазин",
@@ -2128,7 +2128,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": ""
+		"placeUrl": "-"
 	}, {
 		"id": "159BS",
 		"category": "Книжный магазин",
@@ -2143,7 +2143,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "bazingacomics.ru"
+		"placeUrl": "https://bazingacomics.ru/"
 	}, {
 		"id": "160BS",
 		"category": "Книжный магазин",
@@ -2218,7 +2218,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "165BS",
 		"category": "Книжный магазин",
@@ -2233,7 +2233,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": ""
+		"placeUrl": "-"
 	}, {
 		"id": "166BS",
 		"category": "Книжный магазин",
@@ -2278,7 +2278,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": ""
+		"placeUrl": "-"
 	}, {
 		"id": "169BS",
 		"category": "Книжный магазин",
@@ -2293,7 +2293,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": ""
+		"placeUrl": "-"
 	}, {
 		"id": "170BS",
 		"category": "Книжный магазин",
@@ -2301,14 +2301,14 @@
 		"address": "г. Зеленогорск\nпр. Ленина, д.19",
 		"about": "Художественная, детская литература,  канцтовары",
 		"timeWork": "ПН-ВС: 12.00-18.00",
-		"telNumber": "",
+		"telNumber": "-",
 		"latitude": "60.198189",
 		"longitude": "29.706298",
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": ""
+		"placeUrl": "-"
 	}, {
 		"id": "171BS",
 		"category": "Книжный магазин",
@@ -2323,7 +2323,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": ""
+		"placeUrl": "-"
 	},{
 		"id": "180BS",
 		"category": "Книжный магазин",
@@ -2338,7 +2338,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "lavkaapelsin.ru"
+		"placeUrl": "http://lavkaapelsin.ru/"
 	}, {
 		"id": "181BS",
 		"category": "Книжный магазин",
@@ -2383,7 +2383,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bukaspb.ru"
+		"placeUrl": "http://www.bukaspb.ru/"
 	}, {
 		"id": "184BS",
 		"category": "Книжный магазин",
@@ -2398,7 +2398,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "185BS",
 		"category": "Книжный магазин",
@@ -2413,7 +2413,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "186BS",
 		"category": "Книжный магазин",
@@ -2428,7 +2428,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "187BS",
 		"category": "Книжный магазин",
@@ -2473,7 +2473,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru/"
 	}, {
 		"id": "190BS",
 		"category": "Книжный магазин",
@@ -2488,7 +2488,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "vk.com/bonikaspb"
+		"placeUrl": "https://vk.com/bonikaspb"
 	}, {
 		"id": "191BS",
 		"category": "Книжный магазин",
@@ -2518,7 +2518,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "193BS",
 		"category": "Книжный магазин",
@@ -2533,7 +2533,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "194BS",
 		"category": "Книжный магазин",
@@ -2548,7 +2548,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "195BS",
 		"category": "Книжный магазин",
@@ -2563,7 +2563,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "196BS",
 		"category": "Книжный магазин",
@@ -2578,7 +2578,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}
 	, {
 		"id": "197BS",
@@ -2594,7 +2594,7 @@
 		"hasCoworking": true,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "198BS",
 		"category": "Книжный магазин",
@@ -2609,7 +2609,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "199BS",
 		"category": "Книжный магазин",
@@ -2624,7 +2624,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "200BS",
 		"category": "Книжный магазин",
@@ -2639,7 +2639,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "201BS",
 		"category": "Книжный магазин",
@@ -2654,7 +2654,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "202BS",
 		"category": "Книжный магазин",
@@ -2669,7 +2669,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "203BS",
 		"category": "Книжный магазин",
@@ -2684,7 +2684,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "204BS",
 		"category": "Книжный магазин",
@@ -2699,7 +2699,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "205BS",
 		"category": "Книжный магазин",
@@ -2714,7 +2714,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bukaspb.ru"
+		"placeUrl": "http://www.bukaspb.ru/"
 	}
 	, {
 		"id": "206BS",
@@ -2760,11 +2760,11 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "vk.com/anderlavka"
+		"placeUrl": "-"
 	}, {
 		"id": "209BS",
 		"category": "Книжный магазин",
-		"name": "Книжный Ммгазин «КНИГА_ЛАВКА»",
+		"name": "Книжный Магазин «КНИГА_ЛАВКА»",
 		"address": "Торфяная дорога, д. 2, корп. 5",
 		"about": "Букинистические издания, открытки, плакаты, гравюры, фотографии, комиксы, экслибрисы ",
 		"timeWork": "ПН-ВС: 11:00–20:00",
@@ -2790,7 +2790,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "nautilus.guru"
+		"placeUrl": "http://www.nautilus.guru/"
 	}, {
 		"id": "211BS",
 		"category": "Книжный магазин",
@@ -2865,7 +2865,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "216BS",
 		"category": "Книжный магазин",
@@ -2880,7 +2880,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "217BS",
 		"category": "Книжный магазин",
@@ -2895,7 +2895,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "218BS",
 		"category": "Книжный магазин",
@@ -2910,7 +2910,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "219BS",
 		"category": "Книжный магазин",
@@ -2925,7 +2925,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "220BS",
 		"category": "Книжный магазин",
@@ -2940,7 +2940,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "221BS",
 		"category": "Книжный магазин",
@@ -2955,7 +2955,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "222BS",
 		"category": "Книжный магазин",
@@ -2970,7 +2970,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "223BS",
 		"category": "Книжный магазин",
@@ -2985,7 +2985,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "www.bookvoed.ru"
+		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "224BS",
 		"category": "Книжный магазин",
@@ -3001,7 +3001,7 @@
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
 
-		"placeUrl": "www.shop.safework.ru"
+		"placeUrl": "http://www.shop.safework.ru/"
 	}, {
 		"id": "225BS",
 		"category": "Книжный магазин",
@@ -3016,7 +3016,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "vk.com/aristotelshopspb"
+		"placeUrl": "https://vk.com/aristotelshopspb"
 	}, {
 		"id": "226BS",
 		"category": "Книжный магазин",
@@ -3031,7 +3031,7 @@
 		"hasCoworking": false,
 		"hasWiFi": false,
 		"images": ["publishing_house/publish_14.jpg"],
-		"placeUrl": "vk.com/bonikaspb"
+		"placeUrl": "https://vk.com/bonikaspb"
 	}, {
 		"id": "227BS",
 		"category": "Книжный магазин",

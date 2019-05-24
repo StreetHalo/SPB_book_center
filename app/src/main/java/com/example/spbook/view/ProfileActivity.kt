@@ -1,7 +1,6 @@
 package com.example.spbook.view
 
 import android.Manifest
-import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.graphics.Color
@@ -13,27 +12,21 @@ import android.support.design.widget.AppBarLayout
 import android.support.v4.content.ContextCompat
 import android.support.v4.content.res.ResourcesCompat
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
-import android.widget.ImageView
-import android.widget.ProgressBar
 import android.widget.Toast
 import com.daimajia.slider.library.Animations.DescriptionAnimation
 import com.daimajia.slider.library.SliderLayout
 import com.daimajia.slider.library.SliderTypes.BaseSliderView
 import com.daimajia.slider.library.Transformers.BaseTransformer
 import com.example.spbook.PLACE_INTENT_KEY
-import com.example.spbook.POJO.Place
+import com.example.spbook.entities.POJO.Place
 import com.example.spbook.R
-import com.google.android.gms.tasks.OnFailureListener
-import com.google.android.gms.tasks.OnSuccessListener
 import com.tbruyelle.rxpermissions2.RxPermissions
 
 import kotlinx.android.synthetic.main.activity_profile.*
-import kotlinx.android.synthetic.main.activity_profile.view.*
 import kotlinx.android.synthetic.main.profile_content.*
 import kotlinx.android.synthetic.main.render_layout.view.*
 
@@ -45,31 +38,32 @@ class ProfileActivity : AppCompatActivity() {
     private lateinit var routeIcon :Drawable
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        place = intent.getParcelableExtra(PLACE_INTENT_KEY)
+        setTheme(place.getThemeProfile())
         setContentView(R.layout.activity_profile)
-         val arrowIcon = ResourcesCompat.getDrawable(resources, R.drawable.ic_arrow_back_black_24dp, null)
+        setColor(place.getColor())
+        custom_indicator.visibility = View.INVISIBLE
+        val arrowIcon = ResourcesCompat.getDrawable(resources, R.drawable.ic_arrow_back_black_24dp, null)
 
         profile_toolbar.navigationIcon = arrowIcon
         collaps_toolbar.title = " "
         collaps_toolbar.setCollapsedTitleTextColor(Color.BLACK)
         setSupportActionBar(profile_toolbar)
-        place = intent.getParcelableExtra(PLACE_INTENT_KEY)
 
         setScrollImg()
-
         app_bar.addOnOffsetChangedListener(AppBarLayout.OnOffsetChangedListener { appBarLayout, verticalOffset ->
             if (appBarLayout.totalScrollRange == Math.abs(verticalOffset)) {
 
                if ((::shareIcon.isInitialized)and(::routeIcon.isInitialized)and (arrowIcon != null)) {
                    arrowIcon!!.setColorFilter(Color.BLACK, PorterDuff.Mode.SRC_ATOP)
                    shareIcon.setColorFilter(Color.BLACK, PorterDuff.Mode.SRC_ATOP)
-                   routeIcon.alpha = 100
-                   routeIcon.setColorFilter(Color.BLACK, PorterDuff.Mode.SRC_ATOP)
+                   routeIcon.alpha = 255
                 }
             } else {
                 if ((::shareIcon.isInitialized)and(::routeIcon.isInitialized)and (arrowIcon != null)) {
-                    routeIcon.alpha = 0
-                    shareIcon.setColorFilter(Color.GRAY, PorterDuff.Mode.SRC_ATOP)
-                    arrowIcon!!.setColorFilter(Color.GRAY, PorterDuff.Mode.SRC_ATOP)
+                   routeIcon.alpha = 0
+                    shareIcon.setColorFilter(Color.WHITE, PorterDuff.Mode.SRC_ATOP)
+                    arrowIcon!!.setColorFilter(Color.WHITE, PorterDuff.Mode.SRC_ATOP)
                 }
             }
         })
@@ -96,8 +90,7 @@ class ProfileActivity : AppCompatActivity() {
         }
 
         url_button.setOnClickListener {
-            val mapIntent = Intent(Intent.ACTION_VIEW, Uri.parse(place.placeUrl))
-            startActivity(mapIntent)
+            openWeb()
         }
 
         phone_button.setOnClickListener {
@@ -113,7 +106,6 @@ class ProfileActivity : AppCompatActivity() {
         }
 
         email_button.setOnClickListener {
-
             sendEmail()
         }
     }
@@ -142,15 +134,15 @@ class ProfileActivity : AppCompatActivity() {
         if (!place.isService3()) service_3.imageAlpha = 30
 
         if (place.telNumber == "-") {
-            phone_button.isEnabled = false
+            phone_button.visibility = View.INVISIBLE
             phone_button.alpha = 0.3f
         }
         if (place.placeUrl == "-") {
-            url_button.isEnabled = false
+            url_button.visibility = View.INVISIBLE
             url_button.alpha = 0.3f
         }
         if (place.email == "-") {
-            email_button.isEnabled = false
+            email_button.visibility = View.INVISIBLE
             email_button.alpha = 0.3f
         }
     }
@@ -170,22 +162,39 @@ class ProfileActivity : AppCompatActivity() {
         }
     }
 
+    private fun openWeb(){
+        val mapIntent = Intent(Intent.ACTION_VIEW, Uri.parse(place.placeUrl))
+        startActivity(mapIntent)
+
+    }
+
 
 
     private fun setScrollImg() {
 
 
-        for (name in place.images) {
+   /*     for (name in place.images) {
             val customSlider = CustomSlider(this, R.color.pub_color)
-            customSlider.image(name).scaleType = BaseSliderView.ScaleType.CenterCrop
-            slider.addSlider(customSlider)
-        }
+            customSlider.image(R.drawable.test).scaleType = BaseSliderView.ScaleType.CenterCrop
+           slider.addSlider(customSlider)
+        }*/
+        val customSlider = CustomSlider(this, R.color.pub_color)
+        customSlider.image(R.drawable.test).scaleType = BaseSliderView.ScaleType.CenterCrop
+        slider.addSlider(customSlider)
 
-        slider.setPresetIndicator(SliderLayout.PresetIndicators.Center_Bottom);
-        slider.setCustomAnimation(object : DescriptionAnimation() {});
-        slider.setDuration(4000);
-        slider.setCustomIndicator(custom_indicator2)
+        slider.stopAutoCycle()
+        slider.setPresetTransformer(SliderLayout.Transformer.Default)
+        slider.setPresetIndicator(SliderLayout.PresetIndicators.Center_Bottom)
+        slider.setCustomAnimation(DescriptionAnimation())
+        slider.setDuration(4000)
+     //   slider.setCustomIndicator(ind)
 
+        slider.stopAutoCycle()
+        slider.setPagerTransformer(false, object : BaseTransformer() {
+                override fun onTransform(view: View, v: Float) {
+                //    pagerIndicator.setVisibility(View.INVISIBLE)
+                }
+            })
     }
 
     open class CustomSlider(context: Context?, private val color: Int) : BaseSliderView(context) {
@@ -206,6 +215,9 @@ class ProfileActivity : AppCompatActivity() {
 
         shareIcon = menu.getItem(1).icon
         routeIcon = menu.getItem(0).icon
+        if(place.placeUrl=="-") {
+            menu.getItem(1).isVisible = false
+        }
         routeIcon.mutate()
         shareIcon.mutate()
 
@@ -214,10 +226,12 @@ class ProfileActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
+
+
         when (item.itemId) {
             R.id.action_route -> goToThePlace()
             R.id.action_share -> sharePlace()
-            R.drawable.ic_arrow_back_black_24dp -> finish()
+            16908332 -> finish()
         }
         return true
     }
@@ -227,5 +241,10 @@ class ProfileActivity : AppCompatActivity() {
         share.type = "text/plain"
         share.putExtra(Intent.EXTRA_TEXT, place.placeUrl)
         startActivity(Intent.createChooser(share, "Поделиться с друзьями"))
+    }
+
+    private fun setColor(color:Int){
+        collaps_toolbar.setContentScrimResource(color)
+        collaps_toolbar.setStatusBarScrimResource(color)
     }
 }

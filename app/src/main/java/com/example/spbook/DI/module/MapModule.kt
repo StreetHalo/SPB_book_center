@@ -5,6 +5,8 @@ import com.example.spbook.INTERVAL_LOCATION_UPDATE
 import com.example.spbook.presenter.MapPresenter
 import com.example.spbook.interactors.LocationInteractor
 import com.example.spbook.repository.LocationRepository
+import com.example.spbook.use_cases.PlaceFilter
+import com.example.spbook.view.CustomAdapter
 import dagger.Module
 import dagger.Provides
 import pl.charmas.android.reactivelocation2.ReactiveLocationProvider
@@ -45,9 +47,20 @@ open class MapModule(val context:Context) {
 
     @Singleton
     @Provides
-    fun provideMapPresenter(locationInteractor: LocationInteractor): MapPresenter {
+    fun provideMapPresenter(locationInteractor: LocationInteractor, customAdapter: CustomAdapter, placeFilter: PlaceFilter): MapPresenter {
 
-        return object : MapPresenter(locationInteractor){}
+        return object : MapPresenter(locationInteractor, customAdapter,placeFilter){}
     }
 
+    @Singleton
+    @Provides
+    fun provideCustomAdapter(): CustomAdapter {
+        return object : CustomAdapter(context){}
+    }
+
+    @Singleton
+    @Provides
+    fun providePlaceFilter(): PlaceFilter {
+        return object :PlaceFilter(context){}
+    }
 }

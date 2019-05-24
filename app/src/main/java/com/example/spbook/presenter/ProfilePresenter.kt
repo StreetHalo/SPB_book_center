@@ -1,6 +1,6 @@
 package com.example.spbook.presenter
 
-import com.example.spbook.POJO.Place
+import com.example.spbook.entities.POJO.Place
 import com.example.spbook.view.ProfileViewInterface
 
 class ProfilePresenter {

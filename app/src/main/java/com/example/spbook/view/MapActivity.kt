@@ -2,20 +2,22 @@ package com.example.spbook.view
 
 import android.annotation.SuppressLint
 import android.content.Intent
+import android.content.res.Resources
 import android.location.Location
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
-import com.example.spbook.App
-import com.example.spbook.BOOK_STORES_LIST
-import com.example.spbook.POJO.Place
-import com.example.spbook.PUBLISH_LIST
-import com.example.spbook.presenter.MapPresenter
+import android.widget.AdapterView
+import com.example.spbook.*
+import com.example.spbook.entities.POJO.Place
 import com.example.spbook.R
+import com.example.spbook.presenter.MapPresenter
 import com.example.spbook.entities.IconMarker
 import com.google.android.gms.maps.*
+import com.google.android.gms.maps.model.MapStyleOptions
 import com.google.android.gms.maps.model.Marker
 import com.google.maps.android.clustering.ClusterManager
 import kotlinx.android.synthetic.main.appbar_map.*
@@ -36,8 +38,9 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback, MapViewInterface {
         App.daggerMainComponent.inject(this)
         setSupportActionBar(toolbar_up)
         map.view!!.visibility = View.INVISIBLE
-     mapPresenter.setListPublish(intent.getParcelableArrayListExtra(PUBLISH_LIST))
+        mapPresenter.setListPublish(intent.getParcelableArrayListExtra(PUBLISH_LIST))
         mapPresenter.setListBookStores(intent.getParcelableArrayListExtra(BOOK_STORES_LIST))
+        mapPresenter.setListLibraries(intent.getParcelableArrayListExtra(LIBRARIES_LIST))
         val mapFragment = supportFragmentManager
             .findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
@@ -47,22 +50,35 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback, MapViewInterface {
     @SuppressLint("MissingPermission")
     override fun onMapReady(googleMap: GoogleMap?) {
         this.googleMap = googleMap!!
+        Log.d("MAP","init set map   ${::clusterManager.isInitialized}")
         clusterManager = ClusterManager(this,googleMap)
-
+        Log.d("MAP","init set map   ${::clusterManager.isInitialized}")
+        mapPresenter.setMarkersUpdate()
         googleMap.setOnCameraIdleListener(clusterManager)
         googleMap.setOnMarkerClickListener(clusterManager)
         googleMap.setOnInfoWindowClickListener(clusterManager)
         googleMap.setInfoWindowAdapter(clusterManager.markerManager)
+        setMapStyle()
         googleMap.isMyLocationEnabled = true
     }
 
+    private fun setMapStyle() {
+        try {
 
+            val success = googleMap.setMapStyle(
+                MapStyleOptions.loadRawResourceStyle(
+                    this, R.raw.map_style
+                )
+            )
 
+            if (!success) {
+            }
+        } catch (e: Resources.NotFoundException) {
+        }
 
-    override fun updateLocation(location: Location) {
-     // if(!map.isVisible)
 
     }
+
 
     override fun setMarkersOnMap(list: ArrayList<Place>) {
             clusterManager.addItems(list)
@@ -81,6 +97,12 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback, MapViewInterface {
     override fun onResume() {
         super.onResume()
         mapPresenter.attach(this)
+
+        Log.d("MAP","resume   ${::clusterManager.isInitialized}")
+
+        if (::clusterManager.isInitialized)
+                mapPresenter.setMarkersUpdate()
+
     }
 
 
@@ -92,9 +114,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback, MapViewInterface {
 
     override fun setFirstLocationAndZoom(update: CameraUpdate) {
         googleMap.moveCamera(update)
-        mapPresenter.startLocationUpdate()
         map.view!!.visibility = View.VISIBLE
-
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -111,9 +131,29 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback, MapViewInterface {
                 val intentFilter = Intent(this, FilterActivity::class.java)
                 startActivity(intentFilter)
             }
+            "О приложении"->{
+                val intentAbout = Intent(this, AboutActivity::class.java)
+                startActivity(intentAbout)
 
+            }
 
         }
         return super.onOptionsItemSelected(item)
+    }
+
+    override fun setCustomAdapter(customAdapter: CustomAdapter) {
+        search_view.setAdapter(customAdapter)
+
+        search_view.setOnItemClickListener(AdapterView.OnItemClickListener { parent, view, position, id ->
+            Log.d("TAH","osition $position")
+
+              openProfile(parent.adapter.getItem(position) as Place)
+        })
+    }
+
+    override fun onPause() {
+        super.onPause()
+        if (::clusterManager.isInitialized)
+        clusterManager.clearItems()
     }
 }

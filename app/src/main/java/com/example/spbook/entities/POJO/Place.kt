@@ -1,4 +1,4 @@
-package com.example.spbook.POJO
+package com.example.spbook.entities.POJO
 
 import android.os.Parcelable
 import com.google.maps.android.clustering.ClusterItem
@@ -15,14 +15,13 @@ abstract class Place: ClusterItem,Parcelable {
     abstract  val longitude: Double
     abstract  val name: String
 
-    abstract val hasOnLineStore: Boolean
-    abstract val hasPublYourBooks: Boolean
-    abstract val hasStore: Boolean
     abstract val images: List<String>
     abstract val placeUrl: String
     abstract val telNumber: String
 
     abstract fun getIcon(): Int
+
+    abstract fun getColor(): Int
 
     abstract fun getAddressAndName(): String
 
@@ -48,4 +47,5 @@ abstract class Place: ClusterItem,Parcelable {
 
     abstract fun aboutService3(): Int
 
+    abstract fun getThemeProfile():Int
 }

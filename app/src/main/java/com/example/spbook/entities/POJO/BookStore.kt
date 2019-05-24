@@ -1,4 +1,4 @@
-package com.example.spbook.POJO
+package com.example.spbook.entities.POJO
 
 import android.os.Parcel
 import android.os.Parcelable
@@ -19,26 +19,10 @@ data class BookStore(
     override val placeUrl: String,
     override val telNumber: String,
     override  val timeWork: String,
-    override val hasOnLineStore: Boolean,
-    override val hasPublYourBooks: Boolean,
-    override val hasStore: Boolean,
     override val images: List<String>
 
 ): Place(){
-    override fun aboutService1(): Int {
-        return R.string.fil_books_cafe
-    }
-
-    override fun aboutService2(): Int {
-        return R.string.fil_books_coworking
-    }
-
-    override fun aboutService3(): Int {
-        return R.string.fil_books_wifi
-    }
-
-
-    override val email: String = ""
+    override val email: String = "-"
 
     constructor(parcel: Parcel) : this(
         parcel.readString(),
@@ -54,13 +38,30 @@ data class BookStore(
         parcel.readString(),
         parcel.readString(),
         parcel.readString(),
-        parcel.readByte() != 0.toByte(),
-        parcel.readByte() != 0.toByte(),
-        parcel.readByte() != 0.toByte(),
         parcel.createStringArrayList()
     ) {
     }
 
+    override fun getThemeProfile(): Int {
+        return R.style.ProfileStoreTheme
+    }
+
+    override fun aboutService1(): Int {
+        return R.string.fil_books_cafe
+    }
+
+    override fun aboutService2(): Int {
+        return R.string.fil_books_coworking
+    }
+
+    override fun aboutService3(): Int {
+        return R.string.fil_books_wifi
+    }
+
+
+    override fun getColor(): Int {
+        return R.color.store_color
+    }
 
     override fun getIcon(): Int {
         return R.drawable.ic_book_store_brown
@@ -107,7 +108,7 @@ data class BookStore(
     }
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
-        //super.writeToParcel(parcel, flags)
+     //   super.writeToParcel(parcel, flags)
         parcel.writeString(about)
         parcel.writeString(address)
         parcel.writeString(category)
@@ -121,9 +122,6 @@ data class BookStore(
         parcel.writeString(placeUrl)
         parcel.writeString(telNumber)
         parcel.writeString(timeWork)
-        parcel.writeByte(if (hasOnLineStore) 1 else 0)
-        parcel.writeByte(if (hasPublYourBooks) 1 else 0)
-        parcel.writeByte(if (hasStore) 1 else 0)
         parcel.writeStringList(images)
     }
 
@@ -140,6 +138,5 @@ data class BookStore(
             return arrayOfNulls(size)
         }
     }
-
 
 }

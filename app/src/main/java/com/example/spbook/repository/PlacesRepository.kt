@@ -1,9 +1,9 @@
 package com.example.spbook.repository
 
 import android.content.Context
-import android.util.Log
-import com.example.spbook.POJO.BookStore
-import com.example.spbook.POJO.Publish
+import com.example.spbook.entities.POJO.BookStore
+import com.example.spbook.entities.POJO.Library
+import com.example.spbook.entities.POJO.Publish
 import com.example.spbook.R
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
@@ -29,6 +29,15 @@ open class PlacesRepository (private  val gson: Gson, private  val context: Cont
             val listType = object : TypeToken<ArrayList<BookStore>>() {}.type
             val rd = BufferedReader(InputStreamReader(raw) as Reader?)
             return@fromCallable gson.fromJson(rd,listType) as ArrayList<BookStore>
+        }
+    }
+
+    fun getLibsFromRepository(): Single<ArrayList<Library>> {
+        return Single.fromCallable {
+            val raw = context.resources.openRawResource(R.raw.libs)
+            val listType = object : TypeToken<ArrayList<Library>>() {}.type
+            val rd = BufferedReader(InputStreamReader(raw) as Reader?)
+            return@fromCallable gson.fromJson(rd,listType) as ArrayList<Library>
         }
     }
 

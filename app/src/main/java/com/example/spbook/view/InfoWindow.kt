@@ -3,9 +3,7 @@ package com.example.spbook.view
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
-import android.widget.ImageView
-import android.widget.TextView
-import com.example.spbook.POJO.Place
+import com.example.spbook.entities.POJO.Place
 import com.example.spbook.R
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.model.Marker

@@ -54,6 +54,8 @@ dependencies {
     implementation 'com.daimajia.slider:library:1.1.5@aar'
     implementation 'com.github.markushi:circlebutton:1.1'
     implementation 'com.ms-square:expandableTextView:0.1.4'
+    //"about us" layout
+    implementation 'com.github.medyo:android-about-page:1.2.5'
 
 
 }

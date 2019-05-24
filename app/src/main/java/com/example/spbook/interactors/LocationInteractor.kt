@@ -31,8 +31,8 @@ open class LocationInteractor(val userLocation: LocationRepository, val context:
             ) == PackageManager.PERMISSION_GRANTED
         )
         userLocation.getLastKnowLocation().lastKnownLocation
-            .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
+            .subscribeOn(Schedulers.io())
             .subscribe{
                 createCameraUpdate(it)
             }
@@ -45,10 +45,7 @@ open class LocationInteractor(val userLocation: LocationRepository, val context:
     }
 
     fun startUpdateCurrentLocation(){
-        userLocation.getCurrentLocation()?.subscribe{
-          //  mapPresenter.
         }
 
-    }
 
 }

@@ -1,5 +1,7 @@
 <resources>
 
+
+
     <!-- Base application theme. -->
     <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
@@ -11,10 +13,33 @@
     <style name="MapTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/background_filter</item>
-        <item name="colorPrimaryDark">@color/background_filter</item>
-        <item name="colorAccent">@color/background_filter_text</item>
+        <item name="colorPrimaryDark">@color/background_filter_toolbar</item>
+        <item name="colorAccent">@color/colorAccent</item>
 
     </style>
+
+    <style name="ProfileStoreTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FFC04B</item>
+        <item name="colorPrimaryDark">@color/store_color</item>
+        <item name="colorAccent">#FFB207</item>
+    </style>
+
+    <style name="ProfilePublishTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/background_filter</item>
+        <item name="colorPrimaryDark">@color/pub_color</item>
+        <item name="colorAccent">@color/background_filter_text</item>
+    </style>
+
+    <style name="ProfileLibTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FA5C5C</item>
+        <item name="colorPrimaryDark">@color/lib_color</item>
+        <item name="colorAccent">#CB374B</item>
+    </style>
+
+
 
     <style name="ProfileTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
@@ -26,14 +51,25 @@
     <style name="FilterTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/background_filter</item>
-        <item name="colorPrimaryDark">@color/background_filter</item>
+        <item name="colorPrimaryDark">@color/background_filter_toolbar</item>
         <item name="colorAccent">@color/filter_Accent</item>
     </style>
-   <!-- <style name="AppTheme.NoActionBar">
+<!--
+    <style name="AppTheme" parent="Theme.AppCompat.Light"/>
+    <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 -->
+
+   <!-- <style name="about_image">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>-->
+
 </resources>

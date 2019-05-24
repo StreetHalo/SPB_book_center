@@ -6,6 +6,7 @@ import com.example.spbook.interactors.PlacesInteractor
 import com.example.spbook.presenter.SplashPresenter
 import com.example.spbook.repository.AuthorsRepository
 import com.example.spbook.repository.PlacesRepository
+import com.example.spbook.view.CustomAdapter
 import dagger.Module
 import dagger.Provides
 import com.google.gson.GsonBuilder
@@ -56,4 +57,5 @@ open class DataModule(private val context: Context) {
 
         return  object : AuthorsRepository(gson,context){}
     }
+
 }

@@ -33,8 +33,7 @@
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar_up"
                 android:layout_width="match_parent"
-                android:layout_height="?attr/actionBarSize"
-                android:background="@color/background_filter_toolbar" />
+                android:layout_height="?attr/actionBarSize"/>
             <com.miguelcatalan.materialsearchview.MaterialSearchView
                 android:id="@+id/search_view"
                 android:layout_width="match_parent"

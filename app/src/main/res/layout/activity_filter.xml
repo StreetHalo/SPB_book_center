@@ -15,7 +15,6 @@
                 android:id="@+id/toolbar_filter"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                android:background="@color/background_filter_toolbar"
                 app:title="Фильтр карты">
 
         </android.support.v7.widget.Toolbar>
@@ -47,7 +46,7 @@
             <CheckedTextView
                     android:id="@+id/filter_lib_wifi"
                     android:layout_width="match_parent"
-                    android:checked="true"
+                    android:checked="false"
                     android:layout_height="38dp"
                     android:gravity="center_vertical"
                     android:drawableEnd="?android:attr/listChoiceIndicatorSingle"
@@ -59,7 +58,7 @@
             <CheckedTextView
                     android:id="@+id/filter_lib_coworking"
                     android:layout_width="match_parent"
-                    android:checked="true"
+                    android:checked="false"
                     android:layout_height="38dp"
                     android:drawableEnd="?android:attr/listChoiceIndicatorSingle"
                     android:drawableRight="?android:attr/listChoiceIndicatorSingle"
@@ -71,7 +70,7 @@
             <CheckedTextView
                     android:id="@+id/filter_lib_printer"
                     android:layout_width="match_parent"
-                    android:checked="true"
+                    android:checked="false"
                     android:layout_height="38dp"
                     android:drawableEnd="?android:attr/listChoiceIndicatorSingle"
                     android:drawableRight="?android:attr/listChoiceIndicatorSingle"
@@ -79,17 +78,7 @@
                     android:paddingLeft="15dp"
                     android:paddingRight="15dp"
                     android:text="@string/fil_lib_print" />
-            <CheckedTextView
-                    android:id="@+id/filter_empty_lib"
-                    android:layout_width="match_parent"
-                    android:checked="true"
-                    android:layout_height="38dp"
-                    android:drawableEnd="?android:attr/listChoiceIndicatorSingle"
-                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
-                    android:gravity="center_vertical"
-                    android:paddingLeft="15dp"
-                    android:paddingRight="15dp"
-                    android:text="@string/fil_lib_empty" />
+
             <Switch
                     android:id="@+id/filter_books"
                     android:layout_width="match_parent"
@@ -107,6 +96,7 @@
             <CheckedTextView
                     android:id="@+id/filter_books_wifi"
                     android:layout_width="match_parent"
+                    android:checked="false"
                     android:layout_height="38dp"
                     android:drawableEnd="?android:attr/listChoiceIndicatorSingle"
                     android:drawableRight="?android:attr/listChoiceIndicatorSingle"
@@ -119,6 +109,7 @@
                     android:id="@+id/filter_books_coworking"
                     android:layout_width="match_parent"
                     android:layout_height="38dp"
+                    android:checked="false"
                     android:drawableEnd="?android:attr/listChoiceIndicatorSingle"
                     android:drawableRight="?android:attr/listChoiceIndicatorSingle"
                     android:gravity="center_vertical"
@@ -129,6 +120,7 @@
             <CheckedTextView
                     android:id="@+id/filter_books_cafe"
                     android:layout_width="match_parent"
+                    android:checked="false"
                     android:layout_height="38dp"
                     android:drawableEnd="?android:attr/listChoiceIndicatorSingle"
                     android:drawableRight="?android:attr/listChoiceIndicatorSingle"
@@ -137,16 +129,6 @@
                     android:paddingRight="15dp"
                     android:text="@string/fil_books_cafe" />
 
-            <CheckedTextView
-                    android:id="@+id/filter_books_empty"
-                    android:layout_width="match_parent"
-                    android:layout_height="38dp"
-                    android:drawableEnd="?android:attr/listChoiceIndicatorSingle"
-                    android:drawableRight="?android:attr/listChoiceIndicatorSingle"
-                    android:gravity="center_vertical"
-                    android:paddingLeft="15dp"
-                    android:paddingRight="15dp"
-                    android:text="@string/fil_books_empty" />
             <Switch
                     android:id="@+id/filter_publ"
                     android:layout_width="match_parent"
@@ -165,6 +147,7 @@
                     android:id="@+id/filter_publ_your_book"
                     android:layout_width="match_parent"
                     android:layout_height="38dp"
+                    android:checked="false"
                     android:drawableEnd="?android:attr/listChoiceIndicatorSingle"
                     android:drawableRight="?android:attr/listChoiceIndicatorSingle"
                     android:gravity="center_vertical"
@@ -175,6 +158,7 @@
                     android:id="@+id/filter_publ_store"
                     android:layout_width="match_parent"
                     android:layout_height="38dp"
+                    android:checked="false"
                     android:drawableEnd="?android:attr/listChoiceIndicatorSingle"
                     android:drawableRight="?android:attr/listChoiceIndicatorSingle"
                     android:gravity="center_vertical"
@@ -184,6 +168,7 @@
             <CheckedTextView
                     android:id="@+id/filter_publ_online_store"
                     android:layout_width="match_parent"
+                    android:checked="false"
                     android:layout_height="38dp"
                     android:drawableEnd="?android:attr/listChoiceIndicatorSingle"
                     android:drawableRight="?android:attr/listChoiceIndicatorSingle"

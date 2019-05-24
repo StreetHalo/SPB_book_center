@@ -16,6 +16,8 @@
 
     <color name = "filter_Accent">#F44336</color>
 
+    <color name="about_background_color">#FFFFFF</color>
+    <color name="about_description_text_color">#595959</color>
 
     <color name="lib_color">#CB374B</color>
     <color name="store_color">#e49c00</color>

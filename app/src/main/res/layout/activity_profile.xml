@@ -2,6 +2,7 @@
 <android.support.design.widget.CoordinatorLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@android:color/background_light"
@@ -19,7 +20,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:fitsSystemWindows="true"
-                app:contentScrim="@color/background_filter"
                 app:expandedTitleMarginEnd="@dimen/fab_margin"
                 app:expandedTitleMarginStart="@dimen/activity_vertical_margin"
                 app:layout_scrollFlags="scroll|exitUntilCollapsed"
@@ -39,7 +39,7 @@
                         app:pager_animation_span="1100" />
 
                 <com.daimajia.slider.library.Indicators.PagerIndicator
-                        android:id="@+id/custom_indicator2"
+                        android:id="@+id/custom_indicator"
                         style="@style/AndroidImageSlider_Corner_Oval_Orange"
                         android:layout_alignParentBottom="true"
                         android:layout_centerHorizontal="true"
@@ -68,7 +68,6 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/fab_margin"
             android:src="@drawable/ic_directions_black_24dp"
-            app:backgroundTint="@color/background_filter_toolbar"
             app:layout_anchor="@id/app_bar"
             app:layout_anchorGravity="bottom|end" />
 </android.support.design.widget.CoordinatorLayout>
