@@ -12,7 +12,7 @@
 	"hasPublYourBooks": true,
 	"hasStore": false,
 	"hasOnLineStore": true,
-	"images": ["publishing_house/publish_1.jpg"],
+	"images": ["https://pl.spb.ru/bspb/source/img/publish_img/publish_1.jpg"],
 	"storeOnlineUrl": "https://mitra-books.com/aurora-p1-manuf.html",
 	"placeUrl": "http://aurora.com.ru"
 },
@@ -30,7 +30,7 @@
 	"hasPublYourBooks": true,
 	"hasStore": true,
 	"hasOnLineStore": true,
-	"images": ["publishing_house/publish_2.jpg"],
+	"images": ["https://pl.spb.ru/bspb/source/img/publish_img/publish_2.jpg"],
 	"storeOnlineUrl": "http://atlant-tpg.ru/",
 	"placeUrl": "http://atlant-tpg.ru/"
 },
@@ -48,7 +48,7 @@
 	"hasPublYourBooks": false,
 	"hasStore": false,
 	"hasOnLineStore": false,
-	"images": ["publishing_house/publish_3.jpg"],
+	"images": ["https://pl.spb.ru/bspb/source/img/publish_img/publish_3.jpg"],
 	"storeOnlineUrl": "http://vitanova.ru/glavnaya/",
 	"placeUrl": "http://vitanova.ru/glavnaya/"
 },
@@ -66,7 +66,7 @@
 	"hasPublYourBooks": true,
 	"hasStore": false,
 	"hasOnLineStore": true,
-	"images": ["https://www.grammy.com/sites/com/files/styles/news_detail_header/public/xx.jpg?itok=QdjqqTIY","https://cdn4.pitchfork.com/longform/479/1-Header.jpg"],
+	"images": ["https://pl.spb.ru/bspb/source/img/publish_img/publish_4.jpg"],
 	"storeOnlineUrl": "http://galart.ru/knizhnyy-internet-magazin",
 	"placeUrl": "http://www.galart.ru"
 },
@@ -84,7 +84,7 @@
 	"hasPublYourBooks": true,
 	"hasStore": true,
 	"hasOnLineStore": false,
-	"images": ["https://www.grammy.com/sites/com/files/styles/news_detail_header/public/xx.jpg?itok=QdjqqTIY","https://cdn4.pitchfork.com/longform/479/1-Header.jpg"],
+	"images": ["https://pl.spb.ru/bspb/source/img/publish_img/publish_5.jpg"],
 	"storeOnlineUrl": "",
 	"placeUrl": "http://www.gangut.su/"
 },
@@ -102,7 +102,7 @@
 	"hasPublYourBooks": true,
 	"hasStore": false,
 	"hasOnLineStore": true,
-	"images": ["https://www.grammy.com/sites/com/files/styles/news_detail_header/public/xx.jpg?itok=QdjqqTIY","https://cdn4.pitchfork.com/longform/479/1-Header.jpg"],
+	"images": ["https://pl.spb.ru/bspb/source/img/publish_img/publish_6.jpg"],
 	"storeOnlineUrl": "http://shop.heliconplus.ru/",
 	"placeUrl": "http://publish.heliconplus.ru"
 },
@@ -120,7 +120,7 @@
 	"hasPublYourBooks": true,
 	"hasStore": false,
 	"hasOnLineStore": false,
-	"images": ["https://www.grammy.com/sites/com/files/styles/news_detail_header/public/xx.jpg?itok=QdjqqTIY","https://cdn4.pitchfork.com/longform/479/1-Header.jpg"],
+	"images": ["https://pl.spb.ru/bspb/source/img/publish_img/publish_7.jpg"],
 	"storeOnlineUrl": "",
 	"placeUrl": "http://www.hyperion.spb.ru/"
 },
@@ -138,7 +138,7 @@
 	"hasPublYourBooks": false,
 	"hasStore": false,
 	"hasOnLineStore": false,
-	"images": ["https://www.grammy.com/sites/com/files/styles/news_detail_header/public/xx.jpg?itok=QdjqqTIY","https://cdn4.pitchfork.com/longform/479/1-Header.jpg"],
+	"images": ["https://pl.spb.ru/bspb/source/img/publish_img/publish_8.jpg"],
 	"storeOnlineUrl": "",
 	"placeUrl": "http://detstvo-press.ru/"
 },
@@ -156,7 +156,7 @@
 	"hasPublYourBooks": false,
 	"hasStore": true,
 	"hasOnLineStore": true,
-	"images": ["https://www.grammy.com/sites/com/files/styles/news_detail_header/public/xx.jpg?itok=QdjqqTIY","https://cdn4.pitchfork.com/longform/479/1-Header.jpg"],
+	"images": ["https://pl.spb.ru/bspb/source/img/publish_img/publish_9.jpg"],
 	"storeOnlineUrl": "http://www.dbulanin.ru/?n=catalog",
 	"placeUrl": "http://www.dbulanin.ru/"
 },
@@ -174,7 +174,7 @@
 	"hasPublYourBooks": false,
 	"hasStore": false,
 	"hasOnLineStore": false,
-	"images": ["publishing_house/publish_10.jpg"],
+	"images": ["https://pl.spb.ru/bspb/source/img/publish_img/publish_10.jpg"],
 	"storeOnlineUrl": "",
 	"placeUrl": ""
 },
@@ -192,7 +192,7 @@
 	"hasPublYourBooks": false,
 	"hasStore": false,
 	"hasOnLineStore": true,
-	"images": ["publishing_house/publish_11.jpg"],
+	"images": ["https://pl.spb.ru/bspb/source/img/publish_img/publish_11.jpg"],
 	"storeOnlineUrl": "https://eupress.ru/books",
 	"placeUrl": "https://eupress.ru/"
 },
@@ -210,7 +210,7 @@
 	"hasPublYourBooks": false,
 	"hasStore": false,
 	"hasOnLineStore": true,
-	"images": ["publishing_house/publish_12.jpg"],
+	"images": ["https://pl.spb.ru/bspb/source/img/publish_img/publish_12.jpg"],
 	"storeOnlineUrl": "http://publishing.spbu.ru/catalog/",
 	"placeUrl": "http://publishing.spbu.ru"
 },
@@ -228,7 +228,7 @@
 	"hasPublYourBooks": true,
 	"hasStore": true,
 	"hasOnLineStore": false,
-	"images": ["publishing_house/publish_13.jpg"],
+	"images": ["https://pl.spb.ru/bspb/source/img/publish_img/publish_13.jpg"],
 	"storeOnlineUrl": "",
 	"placeUrl": "http://www.spbmuseum.ru/publication"
 },
@@ -246,7 +246,7 @@
 	"hasPublYourBooks": true,
 	"hasStore": false,
 	"hasOnLineStore": true,
-	"images": ["publishing_house/publish_14.jpg"],
+	"images": ["https://pl.spb.ru/bspb/source/img/publish_img/publish_14.jpg"],
 	"storeOnlineUrl": "http://limbakh.ru/index.php?id=6593",
 	"placeUrl": "http://limbakh.ru/"
 },
@@ -264,7 +264,7 @@
 	"hasPublYourBooks": true,
 	"hasStore": false,
 	"hasOnLineStore": true,
-	"images": ["publishing_house/publish_15.jpg"],
+	"images": ["https://pl.spb.ru/bspb/source/img/publish_img/publish_15.jpg"],
 	"storeOnlineUrl": "http://karo.spb.ru/shop/",
 	"placeUrl": "http://karo.spb.ru/publishing"
 },
@@ -282,7 +282,7 @@
 	"hasPublYourBooks": true,
 	"hasStore": true,
 	"hasOnLineStore": false,
-	"images": ["publishing_house/publish_16.jpg"],
+	"images": ["https://pl.spb.ru/bspb/source/img/publish_img/publish_16.jpg"],
 	"storeOnlineUrl": "",
 	"placeUrl": "https://compozitor.spb.ru"
 },
@@ -300,7 +300,7 @@
 	"hasPublYourBooks": true,
 	"hasStore": true,
 	"hasOnLineStore": false,
-	"images": ["publishing_house/publish_17.jpg"],
+	"images": ["https://pl.spb.ru/bspb/source/img/publish_img/publish_17.jpg"],
 	"storeOnlineUrl": "https://akademkniga.su/knigi/katalog/",
 	"placeUrl": "https://akademkniga.su/"
 },
@@ -318,7 +318,7 @@
 	"hasPublYourBooks": true,
 	"hasStore": false,
 	"hasOnLineStore": true,
-	"images": ["publishing_house/publish_18.jpg"],
+	"images": ["https://pl.spb.ru/bspb/source/img/publish_img/publish_18.jpg"],
 	"storeOnlineUrl": "https://nestorbook.ru/uCat/cats/8",
 	"placeUrl": "https://nestorbook.ru/"
 },
@@ -336,7 +336,7 @@
 	"hasPublYourBooks": true,
 	"hasStore": false,
 	"hasOnLineStore": true,
-	"images": ["publishing_house/publish_19.jpg"],
+	"images": ["https://pl.spb.ru/bspb/source/img/publish_img/publish_19.jpg"],
 	"storeOnlineUrl": "http://www.skifiabook.ru/store/",
 	"placeUrl": "http://www.skifiabook.ru"
 },
@@ -354,7 +354,7 @@
 	"hasPublYourBooks": false,
 	"hasStore": false,
 	"hasOnLineStore": false,
-	"images": ["publishing_house/publish_20.jpg"],
+	"images": ["https://pl.spb.ru/bspb/source/img/publish_img/publish_20.jpg"],
 	"storeOnlineUrl": "",
 	"placeUrl": "http://www.limbuspress.ru"
 },
@@ -372,7 +372,7 @@
 	"hasPublYourBooks": false,
 	"hasStore": true,
 	"hasOnLineStore": true,
-	"images": ["publishing_house/publish_21.jpg"],
+	"images": ["https://pl.spb.ru/bspb/source/img/publish_img/publish_21.jpg"],
 	"storeOnlineUrl": "https://www.polyandria.ru/ru/serii_knig",
 	"placeUrl": "www.polyandria.ru"
 }

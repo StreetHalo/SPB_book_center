@@ -15,8 +15,8 @@ class App: Application() {
         super.onCreate()
 
         daggerMainComponent = DaggerMainComponent.builder()
-            .dataModule(object : DataModule(context = baseContext){})
-            .mapModule(object :MapModule(baseContext){})
+            .dataModule(object : DataModule(applicationContext){})
+            .mapModule(object :MapModule(applicationContext){})
             .build()
     }
 }

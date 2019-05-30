@@ -2,21 +2,30 @@ package com.example.spbook.presenter
 
 import android.location.Location
 import android.util.Log
+import com.example.spbook.entities.CheckGPSSettings
 import com.example.spbook.entities.POJO.Place
 import com.example.spbook.interactors.LocationInteractor
 import com.example.spbook.use_cases.PlaceFilter
 import com.example.spbook.view.CustomAdapter
 import com.example.spbook.view.MapViewInterface
+import com.google.android.gms.common.api.Status
+import com.google.android.gms.location.LocationSettingsStatusCodes
 import com.google.android.gms.maps.CameraUpdate
+import io.reactivex.disposables.CompositeDisposable
 
 open class MapPresenter(
-    val locationInteractor: LocationInteractor,
-    val  customAdapter: CustomAdapter,
-    val placeFilter: PlaceFilter
+    private val locationInteractor: LocationInteractor,
+    private val customAdapter: CustomAdapter,
+    private val placeFilter: PlaceFilter,
+    private val checkGPSSettings: CheckGPSSettings
 ):
     MapPresenterInterface {
-
-   private var listLibraries = ArrayList<Place>()
+    override fun openGPSsettings(status: Status?) {
+        mapView.openSettings(status)
+    }
+    private var compositeDisposable = CompositeDisposable()
+    private var isCameraUpdate = false
+    private var listLibraries = ArrayList<Place>()
    private var listStoreBooks = ArrayList<Place>()
    private var listPublish = ArrayList<Place>()
 
@@ -28,9 +37,28 @@ open class MapPresenter(
 
     fun attach(mapView: MapViewInterface){
         this.mapView = mapView
-        locationInteractor.getLastKnowLocation()
+       val gps = checkGPSSettings.checkLocationSettings()!!.subscribe {
+                locationSettingsResult ->
+            val status = locationSettingsResult.status
+            Log.d("MainActivity", "1 opening settings activity. ${status.statusCode}")
 
+            when (status.statusCode) {
+                LocationSettingsStatusCodes.RESOLUTION_REQUIRED -> {
+
+                   openGPSsettings(status)
+
+                }
+                LocationSettingsStatusCodes.SUCCESS ->
+                {
+                    setMap()
+                }
+
+            }
+        }
+        compositeDisposable.add(gps)
     }
+
+
 
     fun setListLibraries(listLibraries: ArrayList<Place>){
         this.listLibraries = listLibraries
@@ -48,20 +76,39 @@ open class MapPresenter(
     }
 
     fun setMarkersUpdate(){
-       // locationInteractor.startUpdateCurrentLocation()
         placeFilter.setFilter()
         mapView.setMarkersOnMap(placeFilter.filterPublishList(listPublish))
         mapView.setMarkersOnMap(placeFilter.filterStoreListList(listStoreBooks))
         mapView.setMarkersOnMap(placeFilter.filterLibListList(listLibraries))
         mapView.setCustomAdapter(customAdapter)
+        getLastKnowPosition()
+
     }
 
     override fun setFirstCameraUpdate(cameraUpdate: CameraUpdate) {
-        mapView.setFirstLocationAndZoom(cameraUpdate)
+        if(!isCameraUpdate) {
+            isCameraUpdate = true
+            mapView.setFirstLocationAndZoom(cameraUpdate)
+        }
     }
 
     override fun setCurrentLocationUpdate(location:Location){
         //mapView.updateLocation(location)
         Log.d("LOCATION","lat ${location.latitude}")
     }
+
+    fun detach(){
+        locationInteractor.dispose()
+        compositeDisposable.dispose()
+    }
+
+    private fun setMap() {
+        mapView.asyncMap()
+    }
+
+  private fun getLastKnowPosition(){
+        locationInteractor.getLastKnowLocation()
+
+    }
+
 }

@@ -222,7 +222,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:src="@drawable/ic_call_black_24dp"
-                app:cb_color="#FF0BEE26"
+                app:cb_color="@color/phone_call"
                 app:cb_pressedRingWidth="8dip" />
 
             <at.markushi.ui.CircleButton

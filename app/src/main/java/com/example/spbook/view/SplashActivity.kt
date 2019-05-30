@@ -12,11 +12,16 @@ import android.widget.Toast
 import com.example.spbook.*
 import com.example.spbook.entities.POJO.BookStore
 import com.example.spbook.entities.POJO.Library
+import com.example.spbook.entities.POJO.Place
 import com.example.spbook.entities.POJO.Publish
 import com.example.spbook.presenter.SplashPresenter
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
+import android.content.DialogInterface
+import android.support.v7.app.AlertDialog
+
+
 
 
 class SplashActivity : AppCompatActivity(), SplashViewInterface {
@@ -59,7 +64,7 @@ class SplashActivity : AppCompatActivity(), SplashViewInterface {
           .request(Manifest.permission.ACCESS_FINE_LOCATION)
             .subscribe { granted ->
                 if (granted) {
-                    presenter.getPlaces()
+               presenter.getPlaces()
                 } else {
                     Toast.makeText(this, R.string.dont_have_location,Toast.LENGTH_LONG).show()
                 }
@@ -73,7 +78,23 @@ class SplashActivity : AppCompatActivity(), SplashViewInterface {
         this.citation.text = citation
     }
 
-   override fun startMapActivity(){
+    override fun errorFromService() {
+        Log.d("Activity","Error")
+        val builder = AlertDialog.Builder(this)
+        builder.setTitle("Опс!")
+            .setMessage(R.string.dont_call_service)
+            .setPositiveButton("Повторить", DialogInterface.OnClickListener { dialog, id ->
+                presenter.getPlaces()
+            })
+            .setNegativeButton("Закрыть",DialogInterface.OnClickListener{dialog, id ->
+
+                dialog.cancel()})
+
+         builder.create()
+        builder.show()
+    }
+
+    override fun startMapActivity(){
       this.startActivity(mainIntent)
      this.finish()
     }

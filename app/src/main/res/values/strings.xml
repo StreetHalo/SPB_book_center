@@ -3,7 +3,7 @@
     <string name="dont_have_net">Для корректной работы приложения необходимо подключение к интернету.</string>
     <string name="dont_have_location">Для корректной работы приложения необходимо разрешение геолокации.</string>
     <string name="dont_have_call">Необходимо разрешение.</string>
-
+    <string name="dont_call_service">К сожалению, сервис временно недоступен. Повторите попытку позже.</string>
     <string name="about">О программе</string>
     <string name="search_hint">Поиск места</string>
 

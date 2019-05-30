@@ -1,9 +1,9 @@
 package com.example.spbook.view
 
+import android.Manifest
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.content.res.Resources
-import android.location.Location
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -16,21 +16,28 @@ import com.example.spbook.entities.POJO.Place
 import com.example.spbook.R
 import com.example.spbook.presenter.MapPresenter
 import com.example.spbook.entities.IconMarker
+import com.google.android.gms.common.api.Status
 import com.google.android.gms.maps.*
 import com.google.android.gms.maps.model.MapStyleOptions
-import com.google.android.gms.maps.model.Marker
 import com.google.maps.android.clustering.ClusterManager
 import kotlinx.android.synthetic.main.appbar_map.*
 import javax.inject.Inject
+import com.tbruyelle.rxpermissions2.RxPermissions
+import android.widget.Toast
+import io.reactivex.disposables.CompositeDisposable
+
 
 class MapActivity : AppCompatActivity(), OnMapReadyCallback, MapViewInterface {
 
-
+    lateinit var mapFragment: SupportMapFragment
     @Inject
-     lateinit var mapPresenter: MapPresenter
+    lateinit var mapPresenter: MapPresenter
+    private val rxPermissions = RxPermissions(this)
+
      private lateinit var  googleMap : GoogleMap
      private lateinit var clusterManager: ClusterManager<Place>
-     private lateinit var markerPosition : Marker
+    private var compositeDisposable = CompositeDisposable()
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -41,25 +48,41 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback, MapViewInterface {
         mapPresenter.setListPublish(intent.getParcelableArrayListExtra(PUBLISH_LIST))
         mapPresenter.setListBookStores(intent.getParcelableArrayListExtra(BOOK_STORES_LIST))
         mapPresenter.setListLibraries(intent.getParcelableArrayListExtra(LIBRARIES_LIST))
-        val mapFragment = supportFragmentManager
+         mapFragment = supportFragmentManager
             .findFragmentById(R.id.map) as SupportMapFragment
+
+    }
+
+    override fun asyncMap(){
         mapFragment.getMapAsync(this)
     }
 
-
     @SuppressLint("MissingPermission")
     override fun onMapReady(googleMap: GoogleMap?) {
+        Log.d("MainActivity","MAP")
         this.googleMap = googleMap!!
-        Log.d("MAP","init set map   ${::clusterManager.isInitialized}")
         clusterManager = ClusterManager(this,googleMap)
-        Log.d("MAP","init set map   ${::clusterManager.isInitialized}")
+       // clusterManager.clearItems()
         mapPresenter.setMarkersUpdate()
         googleMap.setOnCameraIdleListener(clusterManager)
         googleMap.setOnMarkerClickListener(clusterManager)
         googleMap.setOnInfoWindowClickListener(clusterManager)
         googleMap.setInfoWindowAdapter(clusterManager.markerManager)
         setMapStyle()
-        googleMap.isMyLocationEnabled = true
+
+        clusterManager.setOnClusterItemClickListener { p0 ->
+            Log.d("MainActivity","window")
+            clusterManager.markerCollection.setOnInfoWindowAdapter(InfoWindow(this@MapActivity, p0!!))
+            false
+        }
+        clusterManager.setOnClusterItemInfoWindowClickListener {
+
+            clusterManager.clearItems()
+
+            openProfile(it)
+        }
+
+        this.googleMap.isMyLocationEnabled = true
     }
 
     private fun setMapStyle() {
@@ -81,28 +104,26 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback, MapViewInterface {
 
 
     override fun setMarkersOnMap(list: ArrayList<Place>) {
+        Log.d("Activity","set markers on the map")
             clusterManager.addItems(list)
             clusterManager.renderer = IconMarker(this, googleMap, clusterManager!!)
-            clusterManager.setOnClusterItemClickListener { p0 ->
-                clusterManager.markerCollection.setOnInfoWindowAdapter(InfoWindow(this@MapActivity, p0!!))
-                false
-            }
-            clusterManager.setOnClusterItemInfoWindowClickListener {
-                openProfile(it)
-            }
-
 
     }
 
     override fun onResume() {
         super.onResume()
-        mapPresenter.attach(this)
 
-        Log.d("MAP","resume   ${::clusterManager.isInitialized}")
+        val permission =  rxPermissions
+            .request(Manifest.permission.ACCESS_FINE_LOCATION)
+            .subscribe { granted ->
+                if (granted) {
+                    mapPresenter.attach(this)
+                } else {
+                    Toast.makeText(this, com.example.spbook.R.string.dont_have_location, Toast.LENGTH_LONG).show()
+                }
+            }
 
-        if (::clusterManager.isInitialized)
-                mapPresenter.setMarkersUpdate()
-
+        compositeDisposable.add(permission)
     }
 
 
@@ -110,6 +131,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback, MapViewInterface {
         val intent = Intent(this, ProfileActivity::class.java)
         intent.putExtra("Place", place)
         startActivity(intent)
+
     }
 
     override fun setFirstLocationAndZoom(update: CameraUpdate) {
@@ -134,9 +156,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback, MapViewInterface {
             "О приложении"->{
                 val intentAbout = Intent(this, AboutActivity::class.java)
                 startActivity(intentAbout)
-
             }
-
         }
         return super.onOptionsItemSelected(item)
     }
@@ -145,7 +165,6 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback, MapViewInterface {
         search_view.setAdapter(customAdapter)
 
         search_view.setOnItemClickListener(AdapterView.OnItemClickListener { parent, view, position, id ->
-            Log.d("TAH","osition $position")
 
               openProfile(parent.adapter.getItem(position) as Place)
         })
@@ -154,6 +173,19 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback, MapViewInterface {
     override fun onPause() {
         super.onPause()
         if (::clusterManager.isInitialized)
+        {
+        googleMap.clear()
         clusterManager.clearItems()
+        }
+    }
+
+    override fun openSettings(status: Status?) {
+        status!!.startResolutionForResult(this, 0)
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        mapPresenter.detach()
+        compositeDisposable.dispose()
     }
 }

@@ -11,7 +11,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "3BS",
@@ -26,7 +26,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "4BS",
@@ -41,7 +41,7 @@
 		"hasCafe": true,
 		"hasCoworking": true,
 		"hasWiFi": true,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "5BS",
@@ -56,7 +56,7 @@
 		"hasCafe": true,
 		"hasCoworking": false,
 		"hasWiFi": true,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "6BS",
@@ -71,7 +71,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "7BS",
@@ -101,7 +101,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": true,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/respublica.jpg"],
 		"placeUrl": "https://www.respublica.ru"
 	}, {
 		"id": "9BS",
@@ -116,7 +116,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/respublica.jpg"],
 		"placeUrl": "https://www.respublica.ru"
 	}, {
 		"id": "10BS",
@@ -131,7 +131,7 @@
 		"hasCafe": true,
 		"hasCoworking": true,
 		"hasWiFi": true,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_10.jpg"],
 		"placeUrl": "http://www.samokatbook.ru"
 	}, {
 		"id": "12BS",
@@ -146,7 +146,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_12.jpg"],
 		"placeUrl": "http://akbook.ru/"
 	}, {
 		"id": "13BS",
@@ -161,7 +161,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": true,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_13.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "14BS",
@@ -176,7 +176,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_14.jpg"],
 		"placeUrl": "https://vk.com/club478425"
 	}, {
 		"id": "15BS",
@@ -191,7 +191,7 @@
 		"hasCafe": true,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_15.jpg"],
 		"placeUrl": "http://www.newhollandsp.ru"
 	}, {
 		"id": "16BS",
@@ -206,7 +206,7 @@
 		"hasCafe": true,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_16.jpg"],
 		"placeUrl": "https://vk.com/maynereidbook"
 	}, {
 		"id": "17BS",
@@ -221,7 +221,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_17.jpg"],
 		"placeUrl": "http://sobranie.pro"
 	}, {
 		"id": "18BS",
@@ -236,7 +236,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_18.jpg","https://pl.spb.ru/bspb/source/img/stores_img/book_18_1.jpg"],
 		"placeUrl": "https://vk.com/r_raskolnikoff"
 	}, {
 		"id": "19BS",
@@ -251,7 +251,7 @@
 		"hasCafe": true,
 		"hasCoworking": false,
 		"hasWiFi": true,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_19.jpg"],
 		"placeUrl": "http://wordorder.ru"
 	}, {
 		"id": "20BS",
@@ -266,7 +266,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": true,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_20.jpg"],
 		"placeUrl": "http://wordorder.ru"
 	}, {
 		"id": "21BS",
@@ -281,7 +281,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_21.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "22BS",
@@ -296,7 +296,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_22.jpg"],
 		"placeUrl": "https://www.facebook.com/chudetstvobooks"
 	}, {
 		"id": "23BS",
@@ -311,7 +311,7 @@
 		"hasCafe": true,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_23.jpg"],
 		"placeUrl": "http://www.hermitagemuseum.org/wps/portal/hermitage/visitus/general-staff"
 	}, {
 		"id": "24BS",
@@ -326,7 +326,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_24.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "25BS",
@@ -341,7 +341,7 @@
 		"hasCafe": true,
 		"hasCoworking": true,
 		"hasWiFi": true,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_25.jpg"],
 		"placeUrl": "http://www.spbdk.ru"
 	}, {
 		"id": "26BS",
@@ -356,7 +356,7 @@
 		"hasCafe": true,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_26.jpg","https://pl.spb.ru/bspb/source/img/stores_img/book_26_1.jpg"],
 		"placeUrl": "http://dompisatel.ru/?page_id\u003d1104"
 	}, {
 		"id": "27BS",
@@ -371,7 +371,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_27.jpg","https://pl.spb.ru/bspb/source/img/stores_img/book_27_1.jpg"],
 		"placeUrl": "https://www.vse-svobodny.com"
 	}, {
 		"id": "28BS",
@@ -386,7 +386,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_28.jpg"],
 		"placeUrl": "https://hobby-group.ru"
 	}, {
 		"id": "29BS",
@@ -401,7 +401,7 @@
 		"hasCafe": true,
 		"hasCoworking": false,
 		"hasWiFi": true,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_29.jpg"],
 		"placeUrl": "http://bookcoffee.ru"
 	}, {
 		"id": "30BS",
@@ -416,7 +416,7 @@
 		"hasCafe": true,
 		"hasCoworking": false,
 		"hasWiFi": true,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_30.jpg"],
 		"placeUrl": "https://vk.com/frngt"
 	}, {
 		"id": "31BS",
@@ -431,7 +431,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_31.jpg"],
 		"placeUrl": "https://vk.com/dvorbooks"
 	}, {
 		"id": "32BS",
@@ -446,7 +446,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": true,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_32.jpg"],
 		"placeUrl": "https://www.podpisnie.ru/"
 	}, {
 		"id": "33BS",
@@ -461,7 +461,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_33.jpg"],
 		"placeUrl": "http://www.naliteynom.ru"
 	}, {
 		"id": "34BS",
@@ -476,7 +476,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_34.jpg"],
 		"placeUrl": "http://www.dk-spb.ru"
 	}, {
 		"id": "35BS",
@@ -491,7 +491,7 @@
 		"hasCafe": true,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_35.jpg","https://pl.spb.ru/bspb/source/img/stores_img/book_35_1.jpg"],
 		"placeUrl": "https://www.28oi.ru/"
 	}, {
 		"id": "36BS",
@@ -506,7 +506,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_36.jpg"],
 		"placeUrl": "http://bookbridge.spb.ru"
 	}, {
 		"id": "37BS",
@@ -521,7 +521,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "38BS",
@@ -536,7 +536,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "39BS",
@@ -551,7 +551,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": true,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "40BS",
@@ -566,7 +566,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "41BS",
@@ -581,7 +581,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "43BS",
@@ -596,7 +596,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_43.jpg"],
 		"placeUrl": "https://fast-anime.ru/"
 	}, {
 		"id": "44BS",
@@ -611,7 +611,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_44.jpg","https://pl.spb.ru/bspb/source/img/stores_img/book_44_1.jpg"],
 		"placeUrl": "http://www.rozamiraspb.ru"
 	}, {
 		"id": "45BS",
@@ -626,7 +626,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_45.jpg"],
 		"placeUrl": "http://www.shop.safework.ru"
 	}, {
 		"id": "46BS",
@@ -641,7 +641,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_46.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "47BS",
@@ -656,7 +656,7 @@
 		"hasCafe": true,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_47.jpg","https://pl.spb.ru/bspb/source/img/stores_img/book_47_1.jpg"],
 		"placeUrl": "http://fotodepartament.ru"
 	}, {
 		"id": "49BS",
@@ -671,7 +671,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "50BS",
@@ -686,7 +686,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "51BS",
@@ -701,7 +701,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "52BS",
@@ -716,7 +716,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_52.jpg"],
 		"placeUrl": "http://www.varnitsy.spb.ru"
 	}, {
 		"id": "53BS",
@@ -731,7 +731,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_53.jpg"],
 		"placeUrl": "http://ambookvo.ru/"
 	}, {
 		"id": "54BS",
@@ -746,7 +746,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_54.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "55BS",
@@ -761,7 +761,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": true,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_55.jpg"],
 		"placeUrl": "https://vk.com/chernaya100shop"
 	}, {
 		"id": "56BS",
@@ -776,7 +776,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_56.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "57BS",
@@ -791,7 +791,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": true,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_57.jpg"],
 		"placeUrl": "http://svoi-knigi.ru"
 	}, {
 		"id": "58BS",
@@ -806,7 +806,7 @@
 		"hasCafe": true,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_58.jpg","https://pl.spb.ru/bspb/source/img/stores_img/book_58_1.jpg"],
 		"placeUrl": "https://www.erarta.com/ru/visit/erartahome.html"
 	}, {
 		"id": "59BS",
@@ -821,7 +821,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_59.jpg"],
 		"placeUrl": "https://vk.com/publishing.spbu"
 	}, {
 		"id": "60BS",
@@ -836,7 +836,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_60.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "61BS",
@@ -851,7 +851,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": true,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_61.jpg"],
 		"placeUrl": "https://vk.com/club20914943"
 	}, {
 		"id": "63BS",
@@ -866,7 +866,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_63.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "64BS",
@@ -881,7 +881,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_64.jpg"],
 		"placeUrl": "http://www.shop.safework.ru/"
 	}, {
 		"id": "66BS",
@@ -896,7 +896,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_66.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "68BS",
@@ -911,7 +911,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "69BS",
@@ -926,7 +926,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "70BS",
@@ -941,7 +941,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "71BS",
@@ -956,7 +956,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "72BS",
@@ -971,7 +971,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "73BS",
@@ -986,7 +986,7 @@
 		"hasCafe": true,
 		"hasCoworking": false,
 		"hasWiFi": true,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "74BS",
@@ -1001,7 +1001,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "75BS",
@@ -1016,7 +1016,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "76BS",
@@ -1031,7 +1031,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	},  {
 		"id": "78BS",
@@ -1046,7 +1046,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/azbooka.jpg"],
 		"placeUrl": "http://www.bukaspb.ru/shops/smolyachkova14"
 	}, {
 		"id": "79BS",
@@ -1061,7 +1061,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/azbooka.jpg"],
 		"placeUrl": "http://www.bukaspb.ru/shops/politehnicheskaya28"
 	}, {
 		"id": "80BS",
@@ -1076,7 +1076,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/azbooka.jpg"],
 		"placeUrl": "http://www.bukaspb.ru/shops/hudozhnikov11a"
 	}, {
 		"id": "81BS",
@@ -1091,7 +1091,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/azbooka.jpg"],
 		"placeUrl": "http://spb.ktogdeest.com/knizhnye-magaziny/districts/vyborgskij-rajon/page2"
 	}, {
 		"id": "82BS",
@@ -1106,7 +1106,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/azbooka.jpg"],
 		"placeUrl": "http://www.bukaspb.ru/shops/eletskaya3"
 	}, {
 		"id": "83BS",
@@ -1121,7 +1121,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/azbooka.jpg"],
 		"placeUrl": "http://www.bukaspb.ru/shops/shkolnik"
 	}, {
 		"id": "84BS",
@@ -1136,7 +1136,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_84.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "85BS",
@@ -1151,7 +1151,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_85.jpg"],
 		"placeUrl": "https://vk.com/bukvarik30"
 	}, {
 		"id": "86BS",
@@ -1166,7 +1166,7 @@
 		"hasCafe": true,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_86.jpg"],
 		"placeUrl": "http://www.varnitsy.spb.ru/contacts"
 	}, {
 		"id": "87BS",
@@ -1181,7 +1181,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_87.jpg"],
 		"placeUrl": "https://nobel-book.com"
 	}, {
 		"id": "89BS",
@@ -1196,7 +1196,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": true,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "90BS",
@@ -1211,7 +1211,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "91BS",
@@ -1226,7 +1226,7 @@
 		"hasCafe": true,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "92BS",
@@ -1241,7 +1241,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "94BS",
@@ -1256,7 +1256,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "95BS",
@@ -1271,7 +1271,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/azbooka.jpg"],
 		"placeUrl": "http://www.bukaspb.ru/"
 	}, {
 		"id": "96BS",
@@ -1286,7 +1286,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/azbooka.jpg"],
 		"placeUrl": "http://www.bukaspb.ru/shops/grazhdanskiy119"
 	}, {
 		"id": "97BS",
@@ -1301,7 +1301,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/dom_knigi.jpg"],
 		"placeUrl": "http://dk-spb.ru/"
 	},  {
 		"id": "99BS",
@@ -1316,7 +1316,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/azbooka.jpg"],
 		"placeUrl": "http://www.ast.ru"
 	}, {
 		"id": "100BS",
@@ -1331,7 +1331,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_100.jpg"],
 		"placeUrl": "https://regnum-book.ru/"
 	}, {
 		"id": "103BS",
@@ -1346,7 +1346,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_103.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "104BS",
@@ -1361,7 +1361,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_104.jpg"],
 		"placeUrl": "https://www.bible.org.ru/"
 	}, {
 		"id": "105BS",
@@ -1376,7 +1376,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_105.jpg"],
 		"placeUrl": "http://www.кнопкак.рф"
 	}, {
 		"id": "106BS",
@@ -1391,7 +1391,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_106.jpg"],
 		"placeUrl": "https://vk.com/staraykniga"
 	},
 	{
@@ -1407,7 +1407,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "111BS",
@@ -1422,7 +1422,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "112BS",
@@ -1437,7 +1437,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "113BS",
@@ -1452,7 +1452,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "114BS",
@@ -1467,7 +1467,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_114.jpg"],
 		"placeUrl": "http://www.knor.ru/"
 	}, {
 		"id": "115BS",
@@ -1482,7 +1482,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_115.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "116BS",
@@ -1497,7 +1497,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "117BS",
@@ -1512,7 +1512,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_117.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "118BS",
@@ -1527,7 +1527,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_118.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "119BS",
@@ -1542,7 +1542,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": true,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_119.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "120BS",
@@ -1557,7 +1557,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_120.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "121BS",
@@ -1572,7 +1572,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_121.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "122BS",
@@ -1587,7 +1587,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_122.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "123BS",
@@ -1602,7 +1602,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/azbooka.jpg"],
 		"placeUrl": "http://www.bukaspb.ru/"
 	}, {
 		"id": "124BS",
@@ -1617,7 +1617,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru/"
 	}, {
 		"id": "125BS",
@@ -1632,7 +1632,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/azbooka.jpg"],
 		"placeUrl": "http://www.bukaspb.ru/"
 	}, {
 		"id": "126BS",
@@ -1647,7 +1647,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_126.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "127BS",
@@ -1662,7 +1662,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/azbooka.jpg"],
 		"placeUrl": "http://www.bukaspb.ru/"
 	}, {
 		"id": "128BS",
@@ -1677,7 +1677,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru/"
 	}, {
 		"id": "129BS",
@@ -1692,7 +1692,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_129.jpg"],
 		"placeUrl": "http://www.relod.ru/"
 	}, {
 		"id": "130BS",
@@ -1707,7 +1707,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/azbooka.jpg"],
 		"placeUrl": "http://www.bukaspb.ru/"
 	}, {
 		"id": "131BS",
@@ -1722,7 +1722,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "132BS",
@@ -1737,7 +1737,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "133BS",
@@ -1752,7 +1752,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "134BS",
@@ -1767,7 +1767,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "135BS",
@@ -1782,7 +1782,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "136BS",
@@ -1797,7 +1797,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_53.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "137BS",
@@ -1812,7 +1812,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/azbooka.jpg"],
 		"placeUrl": "http://www.bukaspb.ru/"
 	}, {
 		"id": "138BS",
@@ -1827,7 +1827,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_138.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "139BS",
@@ -1842,7 +1842,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "140BS",
@@ -1857,7 +1857,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "141BS",
@@ -1872,7 +1872,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "142BS",
@@ -1887,7 +1887,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "143BS",
@@ -1902,7 +1902,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "144BS",
@@ -1917,7 +1917,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/azbooka.jpg"],
 		"placeUrl": "http://www.bukaspb.ru/"
 	}, {
 		"id": "145BS",
@@ -1932,7 +1932,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/azbooka.jpg"],
 		"placeUrl": "http://www.bukaspb.ru/"
 	}, {
 		"id": "146BS",
@@ -1947,7 +1947,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_146.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "147BS",
@@ -1962,7 +1962,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "148BS",
@@ -1977,7 +1977,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "149BS",
@@ -1992,7 +1992,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "150BS",
@@ -2007,7 +2007,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "151BS",
@@ -2022,7 +2022,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "152BS",
@@ -2037,7 +2037,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "153BS",
@@ -2052,7 +2052,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "154BS",
@@ -2067,7 +2067,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": true,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_154.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "155BS",
@@ -2082,7 +2082,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": true,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_155.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "156BS",
@@ -2097,7 +2097,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_156.jpg"],
 		"placeUrl": "https://krolocomics.ru/"
 	}, {
 		"id": "157BS",
@@ -2112,7 +2112,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_157.jpg"],
 		"placeUrl": "http://grafitspb.com/"
 	}, {
 		"id": "158BS",
@@ -2127,7 +2127,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_158.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "159BS",
@@ -2142,7 +2142,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_159.jpg"],
 		"placeUrl": "https://bazingacomics.ru/"
 	}, {
 		"id": "160BS",
@@ -2157,7 +2157,7 @@
 		"hasCafe": true,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_160.jpg"],
 		"placeUrl": "https://krupaspb.ru"
 	}, {
 		"id": "161BS",
@@ -2172,7 +2172,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "162BS",
@@ -2187,7 +2187,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "163BS",
@@ -2202,7 +2202,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "164BS",
@@ -2217,7 +2217,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "165BS",
@@ -2232,7 +2232,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "166BS",
@@ -2247,7 +2247,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_166.jpg"],
 		"placeUrl": "http://geliosartshop.ru"
 	}, {
 		"id": "167BS",
@@ -2262,7 +2262,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_167.jpg"],
 		"placeUrl": "http://rodkniga.ru"
 	}, {
 		"id": "168BS",
@@ -2277,7 +2277,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_168.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "169BS",
@@ -2292,7 +2292,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_169.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "170BS",
@@ -2307,7 +2307,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_170.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "171BS",
@@ -2322,7 +2322,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_171.jpg"],
 		"placeUrl": "-"
 	},{
 		"id": "180BS",
@@ -2337,7 +2337,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_180.jpg"],
 		"placeUrl": "http://lavkaapelsin.ru/"
 	}, {
 		"id": "181BS",
@@ -2352,7 +2352,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_181.jpg"],
 		"placeUrl": "http://книги-петербурга.рф/"
 	}, {
 		"id": "182BS",
@@ -2367,7 +2367,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_182.jpg"],
 		"placeUrl": "http://александр-принт.рф"
 	}, {
 		"id": "183BS",
@@ -2382,7 +2382,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/azbooka.jpg"],
 		"placeUrl": "http://www.bukaspb.ru/"
 	}, {
 		"id": "184BS",
@@ -2397,7 +2397,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "185BS",
@@ -2412,7 +2412,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "186BS",
@@ -2427,7 +2427,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "187BS",
@@ -2442,7 +2442,7 @@
 		"hasCafe": true,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_187.jpg","https://pl.spb.ru/bspb/source/img/stores_img/book_187_1.jpg","https://pl.spb.ru/bspb/source/img/stores_img/book_187_2.jpg"],
 		"placeUrl": "http://cookngeek.ru/knizhnyj-magazin/"
 	}, {
 		"id": "188BS",
@@ -2457,7 +2457,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_188.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "189BS",
@@ -2472,7 +2472,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru/"
 	}, {
 		"id": "190BS",
@@ -2487,7 +2487,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_190.jpg"],
 		"placeUrl": "https://vk.com/bonikaspb"
 	}, {
 		"id": "191BS",
@@ -2502,7 +2502,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_191.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "192BS",
@@ -2517,7 +2517,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "193BS",
@@ -2532,7 +2532,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "194BS",
@@ -2547,7 +2547,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "195BS",
@@ -2562,7 +2562,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "196BS",
@@ -2577,7 +2577,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}
 	, {
@@ -2593,7 +2593,7 @@
 		"hasCafe": false,
 		"hasCoworking": true,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "198BS",
@@ -2608,7 +2608,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "199BS",
@@ -2623,7 +2623,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "200BS",
@@ -2638,7 +2638,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "201BS",
@@ -2653,7 +2653,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "202BS",
@@ -2668,7 +2668,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "203BS",
@@ -2683,7 +2683,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "204BS",
@@ -2698,7 +2698,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "205BS",
@@ -2713,7 +2713,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/azbooka.jpg"],
 		"placeUrl": "http://www.bukaspb.ru/"
 	}
 	, {
@@ -2729,7 +2729,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/azbooka.jpg"],
 		"placeUrl": "http://www.bukaspb.ru/"
 	}, {
 		"id": "207BS",
@@ -2744,7 +2744,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/azbooka.jpg"],
 		"placeUrl": "http://www.bukaspb.ru/"
 	}, {
 		"id": "208BS",
@@ -2759,7 +2759,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_208.jpg","https://pl.spb.ru/bspb/source/img/stores_img/book_208_1.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "209BS",
@@ -2774,7 +2774,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_209.jpg"],
 		"placeUrl": "http://knigalavka.ru"
 	}, {
 		"id": "210BS",
@@ -2789,7 +2789,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_210.jpg"],
 		"placeUrl": "http://www.nautilus.guru/"
 	}, {
 		"id": "211BS",
@@ -2804,7 +2804,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_211.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "212BS",
@@ -2819,7 +2819,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_212.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "213BS",
@@ -2834,7 +2834,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_213.jpg","https://pl.spb.ru/bspb/source/img/stores_img/book_213_1.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "214BS",
@@ -2849,7 +2849,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_214.jpg"],
 		"placeUrl": "-"
 	}, {
 		"id": "215BS",
@@ -2864,7 +2864,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "216BS",
@@ -2879,7 +2879,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "217BS",
@@ -2894,7 +2894,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "218BS",
@@ -2909,7 +2909,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "219BS",
@@ -2924,7 +2924,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "220BS",
@@ -2939,7 +2939,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "221BS",
@@ -2954,7 +2954,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "222BS",
@@ -2969,7 +2969,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "223BS",
@@ -2984,7 +2984,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/bookvoed.jpg"],
 		"placeUrl": "https://www.bookvoed.ru"
 	}, {
 		"id": "224BS",
@@ -2999,7 +2999,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_224.jpg","https://pl.spb.ru/bspb/source/img/stores_img/book_224_1.jpg"],
 
 		"placeUrl": "http://www.shop.safework.ru/"
 	}, {
@@ -3015,7 +3015,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_225.jpg"],
 		"placeUrl": "https://vk.com/aristotelshopspb"
 	}, {
 		"id": "226BS",
@@ -3030,7 +3030,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_226.jpg"],
 		"placeUrl": "https://vk.com/bonikaspb"
 	}, {
 		"id": "227BS",
@@ -3045,7 +3045,7 @@
 		"hasCafe": false,
 		"hasCoworking": false,
 		"hasWiFi": false,
-		"images": ["publishing_house/publish_14.jpg"],
+		"images": ["https://pl.spb.ru/bspb/source/img/stores_img/book_227.jpg","https://pl.spb.ru/bspb/source/img/stores_img/book_227_1.jpg"],
 		"placeUrl": "-"
 	}
 ]

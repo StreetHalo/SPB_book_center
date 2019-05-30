@@ -6,9 +6,15 @@ import java.io.File
 
 const val INTERVAL_LOCATION_UPDATE = 3500L
 
+const val NUM_UPDATE = 1
+
 const val START_ZOOM = 15f
 
 const val SPLASH_DELAY = 300L
+
+const val BOOK_STORES_JSON = "bookstores.json"
+
+const val PUBLISH_JSON = "publish.json"
 
 const val PUBLISH_KEY_FILTER_GROUP = "FILTER PUBLISH"
 
@@ -18,7 +24,7 @@ const val PUBLISH_KEY_FILTER_STORE = "FILTER PUBLISH STORE"
 
 const val PUBLISH_KEY_FILTER_ONLINE_STORE = "FILTER PUBLISH ONLINE STORE"
 
-
+const val PLACES_URL = "https://pl.spb.ru"
 
 const val BOOK_KEY_FILTER_GROUP = "FILTER BOOK"
 

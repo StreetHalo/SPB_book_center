@@ -25,4 +25,8 @@
 
     <color name="switch_filter">#840718</color>
 
+    <color name="phone_call">#73A254</color>
+
+    <color name="email_button">#027A9D</color>
+
 </resources>

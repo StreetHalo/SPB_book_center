@@ -1,6 +1,7 @@
 package com.example.spbook.presenter
 
 import android.location.Location
+import com.google.android.gms.common.api.Status
 import com.google.android.gms.maps.CameraUpdate
 
 interface MapPresenterInterface {
@@ -8,5 +9,6 @@ interface MapPresenterInterface {
     fun setFirstCameraUpdate(cameraUpdate: CameraUpdate)
 
     fun setCurrentLocationUpdate(location: Location)
+    fun openGPSsettings(status: Status?)
 
 }

@@ -173,19 +173,19 @@ class ProfileActivity : AppCompatActivity() {
     private fun setScrollImg() {
 
 
-   /*     for (name in place.images) {
+     for (name in place.images) {
             val customSlider = CustomSlider(this, R.color.pub_color)
-            customSlider.image(R.drawable.test).scaleType = BaseSliderView.ScaleType.CenterCrop
+            customSlider.image(name).scaleType = BaseSliderView.ScaleType.CenterCrop
            slider.addSlider(customSlider)
-        }*/
-        val customSlider = CustomSlider(this, R.color.pub_color)
-        customSlider.image(R.drawable.test).scaleType = BaseSliderView.ScaleType.CenterCrop
-        slider.addSlider(customSlider)
+        }
+     /*   val customSlider = CustomSlider(this, place.getColor())
+        customSlider.image(place.images).scaleType = BaseSliderView.ScaleType.CenterCrop
+        slider.addSlider(customSlider)*/
 
         slider.stopAutoCycle()
         slider.setPresetTransformer(SliderLayout.Transformer.Default)
         slider.setPresetIndicator(SliderLayout.PresetIndicators.Center_Bottom)
-        slider.setCustomAnimation(DescriptionAnimation())
+       // slider.setCustomAnimation(DescriptionAnimation())
         slider.setDuration(4000)
      //   slider.setCustomIndicator(ind)
 
