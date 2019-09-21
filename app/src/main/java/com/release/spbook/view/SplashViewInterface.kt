@@ -1,0 +1,20 @@
+package com.release.spbook.view
+
+import com.release.spbook.entities.POJO.BookStore
+import com.release.spbook.entities.POJO.Library
+import com.release.spbook.entities.POJO.Publish
+
+interface SplashViewInterface {
+
+   fun setText(author:String, citation:String)
+
+    fun startMapActivity()
+
+    fun setPublishList(listPublish: ArrayList<Publish>)
+
+    fun setBookStoresList(listBookStores:ArrayList<BookStore>)
+
+    fun setLibsList(listLibs:ArrayList<Library>)
+
+    fun errorFromService()
+}

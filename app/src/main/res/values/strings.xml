@@ -3,7 +3,7 @@
     <string name="dont_have_net">Для корректной работы приложения необходимо подключение к интернету.</string>
     <string name="dont_have_location">Для корректной работы приложения необходимо разрешение геолокации.</string>
     <string name="dont_have_call">Необходимо разрешение.</string>
-    <string name="dont_call_service">К сожалению, сервис временно недоступен. Повторите попытку позже.</string>
+    <string name="dont_call_service">Ошибка подключения к серверу. Повторите попытку позже.</string>
     <string name="about">О программе</string>
     <string name="search_hint">Поиск места</string>
 
@@ -50,5 +50,10 @@
     <string name="image_profile_book_wifi">В книжном магазине есть Wi-Fi</string>
     <string name="image_profile_book_coworiking">В книжном магазине есть коворкинг</string>
     <string name="title_activity_about">AboutActivity</string>
+    <string name="Address">Адрес</string>
+    <string name="Time_work">Часы работы:</string>
+    <string name="Services">Услуги:</string>
+    <string name="todo">todo</string>
+    <string name="Contacts">Контакты:</string>
 
 </resources>

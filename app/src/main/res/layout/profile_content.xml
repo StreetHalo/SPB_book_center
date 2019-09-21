@@ -2,7 +2,6 @@
 <android.support.v4.widget.NestedScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
@@ -14,22 +13,22 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/act_category"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="0dp"
-            android:layout_marginTop="22dp"
-            android:layout_marginBottom="5dp"
-            android:ellipsize="end"
-            android:maxLines="2"
-            android:paddingLeft="10dp"
-            android:paddingTop="0dp"
-            android:singleLine="false"
-            android:textAllCaps="false"
-            android:textColor="#7ca787"
-            android:textSize="18sp"
-            android:layout_marginStart="0dp"
-            android:paddingStart="10dp" />
+                android:id="@+id/act_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginBottom="5dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:paddingLeft="10dp"
+                android:paddingTop="0dp"
+                android:singleLine="false"
+                android:textAllCaps="false"
+                android:textColor="#7ca787"
+                android:textSize="18sp"
+                android:layout_marginStart="0dp"
+                android:paddingStart="10dp" android:paddingRight="10dp"/>
 
         <TextView
                 android:id="@+id/address"
@@ -40,7 +39,7 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:singleLine="false"
-                android:text="Адрес"
+                android:text="@string/Address"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="bold"/>
@@ -69,7 +68,7 @@
                 android:layout_gravity="center|bottom"
                 android:background="@android:color/transparent"
                 android:paddingTop="5dp"
-               />
+                android:contentDescription="@string/todo"/>
 
 
         </com.ms.square.android.expandabletextview.ExpandableTextView>
@@ -85,7 +84,7 @@
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:singleLine="true"
-            android:text="Часы работы:"
+            android:text="@string/Time_work"
             android:textColor="@color/black"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -122,7 +121,7 @@
             android:paddingRight="10dp"
             android:paddingTop="0dp"
             android:singleLine="true"
-            android:text="Услуги:"
+            android:text="@string/Services"
             android:textColor="@color/black"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -134,16 +133,17 @@
             android:layout_marginTop="10dp">
 
             <ImageView
-                android:id="@+id/service_1"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="60dp"
-                android:clickable="true"
-                android:focusable="true"
-                android:layout_alignParentLeft="true"
-                android:layout_marginLeft="60dp" />
+                    android:id="@+id/service_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="60dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="60dp"
+                    android:contentDescription="@string/todo"/>
 
             <ImageView
                 android:id="@+id/service_2"
@@ -155,10 +155,12 @@
                 android:clickable="true"
                 android:cropToPadding="false"
                 android:focusable="true"
+                android:contentDescription="@string/todo"
                 />
 
             <ImageView
-                android:id="@+id/service_3"
+                    android:contentDescription="@string/todo"
+                    android:id="@+id/service_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -192,7 +194,7 @@
             android:paddingRight="10dp"
             android:paddingTop="10dp"
             android:singleLine="true"
-            android:text="Контакты:"
+            android:text="@string/Contacts"
             android:textColor="@color/black"
             android:textSize="16sp"
             android:textStyle="bold" />
